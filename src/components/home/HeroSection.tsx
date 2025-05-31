@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { CalendarDays, Apple, ArrowRight } from 'lucide-react'
+import { CalendarDays, Apple } from 'lucide-react'
 import { ProductCard } from './ProductCard'
 import { ProductCard2 } from './ProductCard2'
 import { ProductCard3 } from './ProductCard3'
