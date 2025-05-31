@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Star, CheckCircle2, Users, AlertCircle } from 'lucide-react'
+import { CtaButton } from '@/components/CtaButton'
 
 export function ProductCard2() {
   return (
@@ -103,22 +104,20 @@ export function ProductCard2() {
 
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
-              <a 
+              <CtaButton 
                 href="https://mon.net.br/3i6gsj"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-4 py-3 bg-[#40B37C] hover:opacity-90 text-white font-medium rounded-lg transition-colors text-center"
+                variant="primary"
+                className="flex-1"
               >
                 Acessar Site Oficial
-              </a>
-              <a 
-                href="https://mon.net.br/3i6gsj"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-4 py-3 bg-[#EE4266] hover:opacity-90 text-white font-medium rounded-lg transition-colors text-center"
+              </CtaButton>
+              <CtaButton 
+                href="/ozenvitta"
+                variant="secondary"
+                className="flex-1"
               >
                 Obter mais informações
-              </a>
+              </CtaButton>
             </div>
             
             {/* Aviso */}

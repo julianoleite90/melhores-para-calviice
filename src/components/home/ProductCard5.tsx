@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Star, CheckCircle2, Users, AlertCircle } from 'lucide-react'
+import { CtaButton } from '@/components/CtaButton'
 
 export function ProductCard5() {
   return (
@@ -106,22 +107,20 @@ export function ProductCard5() {
 
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
-              <a 
+              <CtaButton 
                 href="https://app.monetizze.com.br/r/BGZ1881505"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-4 py-3 bg-[#40B37C] hover:opacity-90 text-white font-medium rounded-lg transition-colors text-center"
+                variant="primary"
+                className="flex-1"
               >
                 Acessar Site Oficial
-              </a>
-              <a 
-                href="https://app.monetizze.com.br/r/BGZ1881505"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-4 py-3 bg-[#EE4266] hover:opacity-90 text-white font-medium rounded-lg transition-colors text-center"
+              </CtaButton>
+              <CtaButton 
+                href="/mounjaslim"
+                variant="secondary"
+                className="flex-1"
               >
                 Obter mais informações
-              </a>
+              </CtaButton>
             </div>
             
             {/* Aviso */}

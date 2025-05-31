@@ -30,23 +30,23 @@ export function HeroSection() {
 
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  5 Remédios Mais<br />
-                  <span className="underline decoration-emerald-500 decoration-4">Potentes</span> para<br />
-                  Emagrecer em 2025
+                  Remédios para <br />
+                  <span className="underline decoration-emerald-500 decoration-4">Emagrecer</span> em<br />
+                  2025
                 </h1>
 
                 <p className="text-xl text-gray-700">
-                  Avaliação Completa de Especialistas
+                  Conheça os 5 Mais Potentes
                 </p>
               </div>
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                  Você está cansado de tentar emagrecer e não ver resultados duradouros? Se sente perdido com tantas opções de remédios no mercado e não sabe qual realmente funciona?
+                <span className="text-emerald-700 font-medium">Análise Completa e Imparcial de Especialistas:</span> Descubra Qual Deles é Ideal para Você Atingir Resultados Duradouros!
                 </p>
 
                 <p>
-                  A busca por um método eficaz e seguro para perder peso é uma jornada que muitas pessoas enfrentam diariamente. Felizmente, a ciência avançou muito, trazendo <span className="text-emerald-700 font-medium">medicamentos inovadores</span> que auxiliam no controle do apetite, aceleram o metabolismo e promovem uma <span className="text-emerald-700 font-medium">perda de peso consistente</span>.
+                Se você está aqui, é porque, como milhões de pessoas, pesquisou por 'remédio para emagrecer' e está <span className="text-emerald-700 font-medium">cansado de promessas vazias e frustrado com a falta de resultados duradouros</span>. Nós entendemos sua busca! Perder peso é um desafio que exige não apenas disciplina, mas também as ferramentas certas.
                 </p>
               </div>
 
@@ -55,7 +55,7 @@ export function HeroSection() {
                 <div className="relative aspect-square bg-white rounded-3xl overflow-hidden shadow-lg">
                   <div className="absolute inset-4 bg-emerald-50/50 rounded-2xl overflow-hidden">
                     <Image
-                      src="/images/picture.png"
+                      src="/images/picture-mob.png"
                       alt="Balança com pés femininos e elementos decorativos"
                       fill
                       className="object-cover"
@@ -86,7 +86,7 @@ export function HeroSection() {
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                  Nesta página, você vai encontrar uma <span className="text-emerald-700 font-medium">análise detalhada dos 5 melhores remédios</span> para emagrecer em 2025, selecionados com base em <span className="text-emerald-700 font-medium">pesquisas clínicas recentes</span>, opiniões médicas e experiências reais. Prepare-se para descobrir qual deles pode ser o aliado ideal na sua transformação.
+                Nesta página, você não vai apenas ler sobre os remédios. Você vai encontrar uma <span className="text-emerald-700 font-medium">análise profunda e detalhada dos 5 remédios para emagrecer mais potentes e promissores de 2025</span>, cuidadosamente selecionados com base em pesquisas clínicas recentes, opiniões médicas e experiências reais de quem já os utilizou. Prepare-se para desvendar qual deles pode ser o seu parceiro ideal nessa jornada transformadora.
                 </p>
 
                 <div className="pt-4">
@@ -107,7 +107,7 @@ export function HeroSection() {
                     }}
                     className="w-full lg:w-auto px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-0.5"
                   >
-                    VERIFICAR REMÉDIOS PARA EMAGRECER
+                    Conheça os 5 Melhores Remédios para Emagrecer
                   </button>
                 </div>
               </div>
@@ -154,20 +154,17 @@ export function HeroSection() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="col-span-1 lg:col-span-2 space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">
-                Por que escolher o remédio certo faz toda a diferença?
+              Por que escolher o Remédio certo para Emagrecer pode mudar totalmente a sua vida?
               </h2>
               <div className="prose prose-lg text-gray-700">
                 <p>
-                  Emagrecer não é apenas uma questão estética, mas de saúde e qualidade de vida. 
-                  Muitas vezes, o corpo resiste às mudanças e o emagrecimento fica mais difícil do que parece. 
-                  Os remédios para emagrecer modernos atuam diretamente nos mecanismos que regulam o apetite 
-                  e o armazenamento de gordura, ajudando você a vencer essa barreira.
+                Emagrecer vai muito além da estética. É sobre <span className="text-emerald-700 font-medium">saúde, energia e, acima de tudo, qualidade de vida</span>. Se você já tentou diversas dietas e exercícios, sabe que muitas vezes o corpo parece resistir às mudanças, tornando a perda de peso um desafio frustrante e, por vezes, solitário. É exatamente nesse ponto que os avanços da ciência podem ser seus maiores aliados.
                 </p>
+
+                <div className="my-6"></div>
+
                 <p>
-                  Mas com tantas opções disponíveis, como saber qual é a mais adequada para você? 
-                  Nossa análise detalhada vai te ajudar a entender os principais medicamentos do mercado, 
-                  seus mecanismos de ação e, mais importante, como escolher aquele que melhor se adapta 
-                  às suas necessidades específicas e objetivos de emagrecimento.
+                Os remédios para emagrecer modernos não são "pílulas mágicas", mas <span className="text-emerald-700 font-medium">ferramentas poderosas que atuam diretamente nos mecanismos biológicos</span> que regulam o apetite, a saciedade e o armazenamento de gordura, ajudando a superar essa barreira que tanto te impede de atingir seus objetivos.
                 </p>
               </div>
             </div>
@@ -350,12 +347,14 @@ export function HeroSection() {
                             </div>
                             <p className="text-base md:text-lg text-gray-600 mt-1">Melhor custo-benefício e resultados mais rápidos (5-7kg em 30 dias)</p>
                           </div>
-                          <CtaButton 
+                          <a
                             href="https://definamaxoficial.com/definamax"
-                            className="w-full sm:w-auto px-6 py-3 bg-emerald-600 text-white text-center font-medium rounded-lg hover:bg-emerald-700 transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
                           >
-                            Site Oficial
-                          </CtaButton>
+                            Acessar Site Oficial
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -380,12 +379,14 @@ export function HeroSection() {
                             </div>
                             <p className="text-base md:text-lg text-gray-600 mt-1">Excelente para controle do apetite e saciedade prolongada</p>
                           </div>
-                          <CtaButton 
-                            href="https://mon.net.br/3eefcd"
-                            className="w-full sm:w-auto px-6 py-3 bg-emerald-600 text-white text-center font-medium rounded-lg hover:bg-emerald-700 transition-colors"
+                          <a
+                            href="https://mon.net.br/3i6gsj"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
                           >
-                            Site Oficial
-                          </CtaButton>
+                            Acessar Site Oficial
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -410,12 +411,14 @@ export function HeroSection() {
                             </div>
                             <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em energia e queima de gordura localizada</p>
                           </div>
-                          <CtaButton 
+                          <a
                             href="https://mon.net.br/3eefqg"
-                            className="w-full sm:w-auto px-6 py-3 bg-emerald-600 text-white text-center font-medium rounded-lg hover:bg-emerald-700 transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
                           >
-                            Site Oficial
-                          </CtaButton>
+                            Acessar Site Oficial
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -440,12 +443,14 @@ export function HeroSection() {
                             </div>
                             <p className="text-base md:text-lg text-gray-600 mt-1">Especialista em desintoxicação e redução de inchaço</p>
                           </div>
-                          <CtaButton 
+                          <a
                             href="https://mon.net.br/3eefce"
-                            className="w-full sm:w-auto px-6 py-3 bg-emerald-600 text-white text-center font-medium rounded-lg hover:bg-emerald-700 transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
                           >
-                            Site Oficial
-                          </CtaButton>
+                            Acessar Site Oficial
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -470,12 +475,14 @@ export function HeroSection() {
                             </div>
                             <p className="text-base md:text-lg text-gray-600 mt-1">Opção econômica com resultados graduais e sustentáveis</p>
                           </div>
-                          <CtaButton 
+                          <a
                             href="https://app.monetizze.com.br/r/BGZ1881505"
-                            className="w-full sm:w-auto px-6 py-3 bg-emerald-600 text-white text-center font-medium rounded-lg hover:bg-emerald-700 transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
                           >
-                            Site Oficial
-                          </CtaButton>
+                            Acessar Site Oficial
+                          </a>
                         </div>
                       </div>
                     </div>
