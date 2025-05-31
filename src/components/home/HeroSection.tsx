@@ -1,14 +1,13 @@
 'use client'
 
 import Image from 'next/image'
-import { CalendarDays, Apple } from 'lucide-react'
+import { CalendarDays, Apple, ArrowRight } from 'lucide-react'
 import { ProductCard } from './ProductCard'
 import { ProductCard2 } from './ProductCard2'
 import { ProductCard3 } from './ProductCard3'
 import { ProductCard4 } from './ProductCard4'
 import { ProductCard5 } from './ProductCard5'
 import { Playfair_Display } from 'next/font/google'
-import { CtaButton } from '@/components/CtaButton'
 
 const playfair = Playfair_Display({ 
   subsets: ['latin'],
@@ -47,6 +46,10 @@ export function HeroSection() {
 
                 <p>
                 Se você está aqui, é porque, como milhões de pessoas, pesquisou por 'remédio para emagrecer' e está <span className="text-emerald-700 font-medium">cansado de promessas vazias e frustrado com a falta de resultados duradouros</span>. Nós entendemos sua busca! Perder peso é um desafio que exige não apenas disciplina, mas também as ferramentas certas.
+                </p>
+
+                <p className="text-gray-700">
+                  Não é sua culpa se você não está conseguindo emagrecer. Estudos mostram que &apos;dietas convencionais&apos; falham em 95% dos casos.
                 </p>
               </div>
 
@@ -164,7 +167,7 @@ export function HeroSection() {
                 <div className="my-6"></div>
 
                 <p>
-                Os remédios para emagrecer modernos não são "pílulas mágicas", mas <span className="text-emerald-700 font-medium">ferramentas poderosas que atuam diretamente nos mecanismos biológicos</span> que regulam o apetite, a saciedade e o armazenamento de gordura, ajudando a superar essa barreira que tanto te impede de atingir seus objetivos.
+                Os remédios para emagrecer modernos não são &quot;pílulas mágicas&quot;, mas <span className="text-emerald-700 font-medium">ferramentas poderosas que atuam diretamente nos mecanismos biológicos</span> que regulam o apetite, a saciedade e o armazenamento de gordura, ajudando a superar essa barreira que tanto te impede de atingir seus objetivos.
                 </p>
               </div>
             </div>

@@ -179,7 +179,7 @@ export default function Sb2Page() {
                 />
               </div>
               <CtaButton 
-                href="https://sb2oficial.com/sb2"
+                href="https://mon.net.br/3eefqg"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -432,7 +432,7 @@ export default function Sb2Page() {
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://sb2oficial.com/sb2"
+                    href="https://mon.net.br/3eefqg"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL

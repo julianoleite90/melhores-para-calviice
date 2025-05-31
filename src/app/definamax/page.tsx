@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { CalendarDays, Star, Truck, ShieldCheck, AlertTriangle, ThumbsUp, Clock, CheckCircle2, XCircle, User, ChevronDown, ChevronUp } from 'lucide-react'
 import { CtaButton } from '@/components/CtaButton'
-import { Footer } from '@/components/Footer'
+import { Breadcrumb } from '@/components/Breadcrumb'
 import { useState } from 'react'
 import Link from 'next/link'
 

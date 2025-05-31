@@ -1,33 +1,21 @@
 'use client'
 
-import { Menu, X } from 'lucide-react'
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
+import Image from 'next/image'
+import { useState } from 'react'
 
 export function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 768) {
-        setIsMenuOpen(false)
-      }
-    }
-
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-
   return (
-    <header className="bg-white">
-      <nav className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            
-          </div>
+    <header className="bg-white border-b border-gray-100">
+      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+        <div className="relative w-[180px] h-8">
+          <Image
+            src="/images/logo.png"
+            alt="Emagrecedores"
+            fill
+            className="object-contain"
+          />
         </div>
-      </nav>
+      </div>
     </header>
   )
 }

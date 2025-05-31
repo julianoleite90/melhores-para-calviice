@@ -151,7 +151,7 @@ export default function NewDetoxPage() {
                 />
               </div>
               <CtaButton 
-                href="https://newdetoxoficial.com/newdetox"
+                href="https://mon.net.br/3eefce"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -403,7 +403,7 @@ export default function NewDetoxPage() {
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://newdetoxoficial.com/newdetox"
+                    href="https://mon.net.br/3eefce"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
