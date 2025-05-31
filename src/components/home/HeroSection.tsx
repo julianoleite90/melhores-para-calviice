@@ -45,7 +45,7 @@ export function HeroSection() {
                 </p>
 
                 <p>
-                Se você está aqui, é porque, como milhões de pessoas, pesquisou por 'remédio para emagrecer' e está <span className="text-emerald-700 font-medium">cansado de promessas vazias e frustrado com a falta de resultados duradouros</span>. Nós entendemos sua busca! Perder peso é um desafio que exige não apenas disciplina, mas também as ferramentas certas.
+                Se você está aqui, é porque, como milhões de pessoas, pesquisou por &apos;remédio para emagrecer&apos; e está <span className="text-emerald-700 font-medium">cansado de promessas vazias e frustrado com a falta de resultados duradouros</span>. Nós entendemos sua busca! Perder peso é um desafio que exige não apenas disciplina, mas também as ferramentas certas.
                 </p>
 
                 <p className="text-gray-700">
