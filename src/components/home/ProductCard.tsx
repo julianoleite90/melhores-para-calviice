@@ -28,7 +28,7 @@ export function ProductCard() {
                 <h3 className="text-xl font-bold text-gray-900">Definamax</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Fibras que absorvem gordura
+                Escolhido por 9 a cada 10 pessoas que buscam remedio para emagrecer
               </p>
             </div>
 

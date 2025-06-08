@@ -29,27 +29,17 @@ export function HeroSection() {
 
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  Remédios para <br />
-                  <span className="underline decoration-emerald-500 decoration-4">Emagrecer</span> em<br />
-                  2025
+                  Os 5 Melhores Remédios para Emagrecer em 2025 – Análise Completa e Imparcial
                 </h1>
 
                 <p className="text-xl text-gray-700">
-                  Conheça os 5 Mais Potentes
+                  (Análise Exclusiva)
                 </p>
               </div>
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                <span className="text-emerald-700 font-medium">Análise Completa e Imparcial de Especialistas:</span> Descubra Qual Deles é Ideal para Você Atingir Resultados Duradouros!
-                </p>
-
-                <p>
-                Se você está aqui, é porque, como milhões de pessoas, pesquisou por &apos;remédio para emagrecer&apos; e está <span className="text-emerald-700 font-medium">cansado de promessas vazias e frustrado com a falta de resultados duradouros</span>. Nós entendemos sua busca! Perder peso é um desafio que exige não apenas disciplina, mas também as ferramentas certas.
-                </p>
-
-                <p className="text-gray-700">
-                  Não é sua culpa se você não está conseguindo emagrecer. Estudos mostram que &apos;dietas convencionais&apos; falham em 95% dos casos.
+                <span className="text-emerald-700 font-medium">Você já tentou de tudo para emagrecer e nada funcionou? Não se culpe. A verdade é que 95% das dietas falham — e isso não é por falta de esforço seu.</span>
                 </p>
               </div>
 
@@ -58,7 +48,7 @@ export function HeroSection() {
                 <div className="relative aspect-square bg-white rounded-3xl overflow-hidden shadow-lg">
                   <div className="absolute inset-4 bg-emerald-50/50 rounded-2xl overflow-hidden">
                     <Image
-                      src="/images/picture-mob.png"
+                      src="/images/img-hero-mob.png"
                       alt="Balança com pés femininos e elementos decorativos"
                       fill
                       className="object-cover"
@@ -89,7 +79,11 @@ export function HeroSection() {
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                Nesta página, você não vai apenas ler sobre os remédios. Você vai encontrar uma <span className="text-emerald-700 font-medium">análise profunda e detalhada dos 5 remédios para emagrecer mais potentes e promissores de 2025</span>, cuidadosamente selecionados com base em pesquisas clínicas recentes, opiniões médicas e experiências reais de quem já os utilizou. Prepare-se para desvendar qual deles pode ser o seu parceiro ideal nessa jornada transformadora.
+                Nesta página, você não vai encontrar apenas uma lista comum de remédios. Aqui, apresentamos uma <span className="text-emerald-700 font-medium">análise profunda e detalhada dos 5 tratamentos para emagrecer mais potentes e promissores de 2025</span> — selecionados com rigor científico, baseados em pesquisas clínicas recentes, opiniões médicas especializadas e relatos reais de quem já obteve resultados transformadores.
+                </p>
+
+                <p>
+                Prepare-se para descobrir qual desses medicamentos inovadores pode ser o seu aliado ideal para conquistar uma perda de peso consistente, saudável e duradoura.
                 </p>
 
                 <div className="pt-4">
@@ -120,7 +114,7 @@ export function HeroSection() {
             <div className="hidden lg:block relative aspect-square lg:aspect-auto lg:h-[600px] bg-white rounded-3xl overflow-hidden shadow-lg">
               <div className="absolute inset-4 bg-emerald-50/50 rounded-2xl overflow-hidden">
                 <Image
-                  src="/images/picture.png"
+                  src="/images/img-hero-desk.png"
                   alt="Balança com pés femininos e elementos decorativos"
                   fill
                   className="object-cover"
@@ -157,17 +151,17 @@ export function HeroSection() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="col-span-1 lg:col-span-2 space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">
-              Por que escolher o Remédio certo para Emagrecer pode mudar totalmente a sua vida?
+              Por que escolher o remédio certo para emagrecer pode transformar a sua vida?
               </h2>
               <div className="prose prose-lg text-gray-700">
                 <p>
-                Emagrecer vai muito além da estética. É sobre <span className="text-emerald-700 font-medium">saúde, energia e, acima de tudo, qualidade de vida</span>. Se você já tentou diversas dietas e exercícios, sabe que muitas vezes o corpo parece resistir às mudanças, tornando a perda de peso um desafio frustrante e, por vezes, solitário. É exatamente nesse ponto que os avanços da ciência podem ser seus maiores aliados.
+                Emagrecer vai muito além da aparência: é uma questão de <span className="text-emerald-700 font-medium">saúde, disposição e qualidade de vida</span>. Se você já tentou inúmeras dietas e exercícios e sentiu que seu corpo simplesmente não responde, saiba que essa resistência é mais comum do que você imagina — e não é culpa sua.
                 </p>
 
                 <div className="my-6"></div>
 
                 <p>
-                Os remédios para emagrecer modernos não são &quot;pílulas mágicas&quot;, mas <span className="text-emerald-700 font-medium">ferramentas poderosas que atuam diretamente nos mecanismos biológicos</span> que regulam o apetite, a saciedade e o armazenamento de gordura, ajudando a superar essa barreira que tanto te impede de atingir seus objetivos.
+                A boa notícia é que, graças aos avanços da ciência, hoje existem medicamentos modernos que atuam diretamente nos <span className="text-emerald-700 font-medium">mecanismos biológicos que controlam o apetite, a saciedade e o armazenamento de gordura</span>, oferecendo um suporte real para quem enfrenta dificuldades para perder peso.
                 </p>
               </div>
             </div>
@@ -214,11 +208,11 @@ export function HeroSection() {
           {/* Cabeçalho do Ranking */}
           <div className="py-12 text-center">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Ranking dos 5 Remédios para Emagrecer que Estão Mudando Vidas em 2025
+              Ranking dos 5 Remédios para Emagrecer Mais Eficazes e Seguros em 2025
             </h2>
-            <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
-              Selecionamos cuidadosamente os remédios mais eficazes e seguros do mercado, baseado em resultados comprovados e satisfação dos usuários.
-            </p>
+                          <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
+                Selecionamos com rigor os medicamentos que apresentam os melhores resultados comprovados em estudos clínicos recentes, combinando eficácia e segurança. Esta lista é baseada não apenas em dados científicos, mas também na satisfação real dos usuários que já experimentaram esses tratamentos inovadores.
+              </p>
           </div>
 
           {/* Container dos Produtos */}
