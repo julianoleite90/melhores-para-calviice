@@ -147,9 +147,9 @@ export function HeroSection() {
 
       {/* Nova seção com fundo cinza */}
       <section className="bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 py-16">
+        <div className="max-w-7xl mx-auto px-4 py-8 lg:py-16">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="col-span-1 lg:col-span-2 space-y-6">
+            <div className="col-span-1 lg:col-span-2 space-y-4 lg:space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">
               Por que escolher o remédio certo para emagrecer pode transformar a sua vida?
               </h2>
