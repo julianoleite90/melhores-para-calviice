@@ -10,8 +10,8 @@ export function ProductCard3() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/sb2-400.webp"
-              alt="Sb2 Turbo: Especialista em queima de gordura"
+              src="/images/ozenvitta-400.webp"
+              alt="Ozenvitta: Controle do apetite e saciedade"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard3() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">3º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Sb2 Turbo</h3>
+                <h3 className="text-xl font-bold text-gray-900">Ozenvitta</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Especialista em queima de gordura
+                Controle do apetite e saciedade
               </p>
             </div>
 
@@ -49,13 +49,10 @@ export function ProductCard3() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                Usuários do <span className="text-gray-900 font-medium">Sb2 Turbo</span> relatam maior disposição e redução de gordura abdominal após 6-8 semanas, com 50% observando resultados visíveis.
-              </p>
-              <p className="text-gray-700">
-                A fórmula termogênica favorece a queima de gordura e o aumento de energia. Ingredientes como <span className="text-gray-900 font-medium">guaraná e cafeína anidra</span> estimulam o metabolismo, enquanto a <span className="text-gray-900 font-medium">piperina</span> melhora a absorção de nutrientes.
+                O <span className="text-gray-900 font-medium">Ozenvitta</span> se destaca por proporcionar saciedade prolongada e redução do apetite, com 85% dos usuários relatando menos compulsão alimentar.
               </p>
               <p className="text-gray-900 font-medium">
-                50% dos usuários relatam redução de gordura em 6-8 semanas, com destaque para a região abdominal.
+                85% dos usuários notam redução do apetite em 7 dias, com perda média de 4-6kg em 30 dias de uso.
               </p>
             </div>
 
@@ -67,7 +64,7 @@ export function ProductCard3() {
                   <h4 className="font-medium text-gray-900">Composição</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Cafeína Anidra (energia), Guaraná (queima gordura), Gengibre (termogênico), Piperina (absorção)
+                  Glucomannan, Psyllium, Cromo, Vitaminas B
                 </p>
               </div>
 
@@ -77,7 +74,7 @@ export function ProductCard3() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Adultos ativos buscando energia e emagrecimento
+                  Ideal para compulsão alimentar
                 </p>
               </div>
 
@@ -87,7 +84,7 @@ export function ProductCard3() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Evitar se sensível à cafeína
+                  Gestantes e lactantes
                 </p>
               </div>
             </div>
@@ -100,7 +97,7 @@ export function ProductCard3() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fórmula termogênica potente com foco em energia e queima de gordura.
+                  Tecnologia avançada de fibras que expandem no estômago, proporcionando até 8 horas de saciedade.
                 </p>
               </div>
             </div>
@@ -108,14 +105,14 @@ export function ProductCard3() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://mon.net.br/3eefqg"
+                href="https://mon.net.br/3i6gsj"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/sb2"
+                href="/ozenvitta"
                 variant="secondary"
                 className="flex-1"
               >

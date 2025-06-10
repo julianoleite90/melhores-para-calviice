@@ -361,8 +361,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/ozenvitta-400.webp"
-                          alt="Ozenvitta"
+                          src="/images/sb2-400.webp"
+                          alt="Sb2 Turbo"
                           fill
                           className="object-contain"
                         />
@@ -372,12 +372,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">2°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Ozenvitta</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Sb2 Turbo</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Excelente para controle do apetite e saciedade prolongada</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em energia e queima de gordura localizada</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3i6gsj"
+                            href="https://mon.net.br/3eefqg"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -393,8 +393,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/sb2-400.webp"
-                          alt="Sb2 Turbo"
+                          src="/images/ozenvitta-400.webp"
+                          alt="Ozenvitta"
                           fill
                           className="object-contain"
                         />
@@ -404,12 +404,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">3°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Sb2 Turbo</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Ozenvitta</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em energia e queima de gordura localizada</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Excelente para controle do apetite e saciedade prolongada</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3eefqg"
+                            href="https://mon.net.br/3i6gsj"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
