@@ -10,8 +10,8 @@ export function ProductCard5() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/monja-400.webp"
-              alt="MounjaSlim: Opção acessível para iniciantes"
+              src="/images/newdetox-400.webp"
+              alt="New Detox: Especialista em desintoxicação"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard5() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">5º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">MounjaSlim</h3>
+                <h3 className="text-xl font-bold text-gray-900">New Detox</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Opção acessível para iniciantes
+                Especialista em desintoxicação
               </p>
             </div>
 
@@ -39,7 +39,7 @@ export function ProductCard5() {
                 ))}
               </div>
               <div className="flex items-baseline gap-1">
-                <span className="text-lg font-bold text-gray-900">4.2</span>
+                <span className="text-lg font-bold text-gray-900">4.4</span>
                 <span className="text-gray-500">/5</span>
               </div>
             </div>
@@ -49,13 +49,13 @@ export function ProductCard5() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                Usuários do <span className="text-gray-900 font-medium">MounjaSlim</span> relatam controle de apetite e perda média de 2-3kg em 8 semanas, com 45% observando resultados.
+                O <span className="text-gray-900 font-medium">New Detox</span> é elogiado por reduzir inchaço em 7 dias, com 70% dos usuários relatando maior leveza e melhora na digestão.
               </p>
               <p className="text-gray-700">
-                O produto é indicado para iniciantes devido ao custo acessível. A <span className="text-gray-900 font-medium">farinha de linhaça e a cactinea</span> ajudam a reduzir a fome e a retenção de líquidos, enquanto o <span className="text-gray-900 font-medium">zinco</span> suporta o metabolismo.
+                A fórmula foca na eliminação de toxinas e retenção de líquidos. Ingredientes como <span className="text-gray-900 font-medium">hibisco e chlorella</span> promovem ação diurética e desintoxicante, enquanto o <span className="text-gray-900 font-medium">psyllium</span> melhora a função intestinal.
               </p>
               <p className="text-gray-900 font-medium">
-                45% dos usuários perdem 2-3kg em 8 semanas, com resultados graduais e sustentáveis.
+                70% dos usuários notam menos inchaço em 7 dias, com significativa melhora na digestão e bem-estar geral.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard5() {
                   <h4 className="font-medium text-gray-900">Composição</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Farinha de Linhaça (fibra), Cactinea (diurético), Vitamina C (antioxidante), Zinco (metabolismo)
+                  Chlorella (desintoxicação), Hibisco (diurético), Psyllium (fibra), Gengibre (anti-inflamatório)
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard5() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Iniciantes ou com orçamento limitado
+                  Retenção de líquidos ou má digestão
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard5() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Evitar com medicamentos que interagem com zinco
+                  Evitar em caso de alergia a algas ou pressão baixa
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export function ProductCard5() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Opção econômica com foco em resultados graduais e sustentáveis.
+                  Fórmula especializada em desintoxicação e redução de inchaço.
                 </p>
               </div>
             </div>
@@ -108,14 +108,14 @@ export function ProductCard5() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://app.monetizze.com.br/r/BGZ1881505"
+                href="https://mon.net.br/3eefce"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/mounjaslim"
+                href="/newdetox"
                 variant="secondary"
                 className="flex-1"
               >

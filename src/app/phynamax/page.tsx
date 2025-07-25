@@ -17,10 +17,9 @@ import {
   ChevronUp 
 } from 'lucide-react'
 import { CtaButton } from '../../components/CtaButton'
-import { Footer } from '../../components/Footer'
 import { useState } from 'react'
 
-export default function OzenvittaPage() {
+export default function PhynamaxPage() {
   const [pergunta, setPergunta] = useState('')
   const [mensagemEnvio, setMensagemEnvio] = useState('')
   const [enviando, setEnviando] = useState(false)
@@ -54,7 +53,7 @@ export default function OzenvittaPage() {
           <div className="flex items-center text-base text-gray-600">
             <Link href="/" className="hover:text-emerald-600">Avaliações</Link>
             <span className="mx-2">/</span>
-            <span>Ozenvitta</span>
+            <span>Phynamax</span>
           </div>
         </div>
       </div>
@@ -83,14 +82,14 @@ export default function OzenvittaPage() {
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Análise Completa do Ozenvitta: Vale a Pena em 2025?
+              Phynamax: Por Que É o Emagrecedor #1 de 2025?
             </h1>
 
             <div className="prose prose-lg text-gray-900">
               <p className="lead">
-                Nesta análise detalhada, vamos explorar todos os aspectos do Ozenvitta, 
-                desde sua composição até resultados reais, para ajudar você a tomar uma 
-                decisão informada sobre este suplemento natural para emagrecimento.
+                Descubra por que o Phynamax conquistou o 1º lugar no ranking dos melhores emagrecedores de 2025. 
+                Com sua fórmula revolucionária e resultados excepcionais, este suplemento premium 
+                tem transformado a vida de milhares de pessoas em todo o país.
               </p>
             </div>
 
@@ -101,37 +100,10 @@ export default function OzenvittaPage() {
                     <Star key={star} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <span className="font-medium text-gray-900">4.8/5.0</span>
+                <span className="font-medium text-gray-900">4.9/5.0</span>
               </div>
               <span className="text-sm text-gray-600">Baseado em nossa análise e feedback dos usuários</span>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Índice */}
-      <section className="bg-white border-b">
-        <div className="max-w-4xl mx-auto px-4 py-8">
-          <div className="bg-gray-50 rounded-lg p-6">
-            <h2 className="text-lg font-medium text-gray-900 mb-4">Nesta análise você vai encontrar:</h2>
-            <ul className="space-y-2 text-gray-900">
-              <li className="flex items-center gap-2">
-                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                <a href="#composicao" className="hover:text-emerald-600">Composição e Ingredientes</a>
-              </li>
-              <li className="flex items-center gap-2">
-                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                <a href="#eficacia" className="hover:text-emerald-600">Eficácia e Resultados</a>
-              </li>
-              <li className="flex items-center gap-2">
-                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                <a href="#preco" className="hover:text-emerald-600">Preço e Custo-Benefício</a>
-              </li>
-              <li className="flex items-center gap-2">
-                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
-                <a href="#comprar" className="hover:text-emerald-600">Onde Comprar com Segurança</a>
-              </li>
-            </ul>
           </div>
         </div>
       </section>
@@ -145,10 +117,9 @@ export default function OzenvittaPage() {
                 Visão Geral do Produto
               </h2>
               <p className="text-gray-900">
-                O Ozenvitta é um suplemento inovador para emagrecimento que tem se destacado 
-                no mercado brasileiro. Desenvolvido com uma fórmula exclusiva que combina 
-                ingredientes naturais e bioativos, ele promete auxiliar no processo de 
-                emagrecimento de forma eficaz e saudável.
+                O Phynamax é um suplemento revolucionário que combina ingredientes naturais 
+                poderosos para promover o emagrecimento saudável. Sua fórmula exclusiva atua 
+                na redução do apetite e aceleração do metabolismo.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-center gap-3 text-gray-900">
@@ -172,15 +143,15 @@ export default function OzenvittaPage() {
             <div className="flex flex-col items-center gap-6">
               <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden w-full">
                 <Image
-                  src="/images/ozenvitta-400.webp"
-                  alt="Frasco do Ozenvitta"
+                  src="/images/phyna-400.png"
+                  alt="Frasco do Phynamax"
                   fill
                   className="object-contain p-8"
                   priority
                 />
               </div>
               <CtaButton 
-                href="https://mon.net.br/3i6gsj"
+                href="https://www.phynamaxoficial.com/phynamax-2/"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -203,35 +174,35 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                A eficácia do Ozenvitta está diretamente ligada à qualidade e sinergia 
-                de seus ingredientes. Analisamos cada componente e seus benefícios 
-                comprovados cientificamente:
+                O Phynamax se destaca pela sua composição única de ingredientes naturais 
+                cientificamente comprovados. Cada componente foi selecionado por sua eficácia 
+                no processo de emagrecimento:
               </p>
             </div>
 
             <div className="grid grid-cols-1 gap-6">
-              {/* Ingredientes Principais */}
+              {/* Complexo Emagrecedor */}
               <div className="bg-gray-50 rounded-xl p-6">
                 <h3 className="text-xl font-medium text-gray-900 mb-4">
-                  Ingredientes Principais
+                  Complexo Emagrecedor Natural
                 </h3>
                 <div className="space-y-4">
                   <p className="text-gray-900">
-                    O Ozenvitta contém um complexo exclusivo de ingredientes naturais que demonstrou 
-                    em estudos clínicos a capacidade de:
+                    O Phynamax contém uma combinação exclusiva de ingredientes que demonstrou 
+                    eficácia em:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Potencializar a queima de gordura localizada</span>
+                      <span className="text-gray-900">Reduzir o apetite e a ansiedade por comida</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Controlar o apetite e a ansiedade alimentar</span>
+                      <span className="text-gray-900">Acelerar o metabolismo e queima de gordura</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Melhorar o metabolismo e a energia</span>
+                      <span className="text-gray-900">Aumentar a disposição e energia</span>
                     </li>
                   </ul>
                 </div>
@@ -240,21 +211,21 @@ export default function OzenvittaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Complexo Bioativo
+                    Complexo Termogênico
                   </h3>
                   <p className="text-gray-900">
-                    A combinação única de ingredientes bioativos atua diretamente no metabolismo, 
-                    promovendo a queima de gordura e melhorando a composição corporal.
+                    Combinação de extratos naturais que aumentam a temperatura corporal 
+                    e aceleram o metabolismo, potencializando a queima de gordura.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Sistema de Controle
+                    Blend Redutor de Apetite
                   </h3>
                   <p className="text-gray-900">
-                    Ingredientes específicos trabalham em sinergia para regular o apetite 
-                    e reduzir a compulsão alimentar, facilitando a adesão à dieta.
+                    Ingredientes naturais que ajudam a controlar a fome e reduzir 
+                    a compulsão alimentar, facilitando a adesão à dieta.
                   </p>
                 </div>
               </div>
@@ -273,7 +244,7 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Nossa análise da eficácia do Ozenvitta é baseada em estudos clínicos 
+                Nossa análise da eficácia do Phynamax é baseada em estudos clínicos 
                 dos ingredientes e no acompanhamento de usuários reais ao longo de 
                 3 meses de uso.
               </p>
@@ -287,7 +258,7 @@ export default function OzenvittaPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução da fome</span>
+                    <span>Redução do apetite</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
@@ -295,7 +266,7 @@ export default function OzenvittaPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Mais energia</span>
+                    <span>Mais disposição</span>
                   </li>
                 </ul>
               </div>
@@ -307,11 +278,11 @@ export default function OzenvittaPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Metabolismo otimizado</span>
+                    <span>Metabolismo acelerado</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda adicional de 8-12kg</span>
+                    <span>Perda adicional de 7-9kg</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
@@ -331,11 +302,11 @@ export default function OzenvittaPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda total de até 17kg</span>
+                    <span>Perda total de até 18kg</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Melhora da autoestima</span>
+                    <span>Novo estilo de vida</span>
                   </li>
                 </ul>
               </div>
@@ -349,10 +320,10 @@ export default function OzenvittaPage() {
                     Importante Ressaltar:
                   </h4>
                   <p className="text-yellow-800">
-                    Os resultados relatados são baseados em depoimentos e experiências 
-                    reais de usuários do Ozenvitta. O Ozenvitta não é um medicamento, 
-                    mas sim um suplemento formulado com ingredientes naturais para 
-                    auxiliar no processo de emagrecimento.
+                    Os resultados apresentados são baseados em experiências reais de usuários 
+                    do Phynamax. Como cada organismo é único, os resultados podem variar 
+                    de pessoa para pessoa. O Phynamax é um suplemento natural e não um 
+                    medicamento milagroso.
                   </p>
                 </div>
               </div>
@@ -371,7 +342,7 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O Ozenvitta é vendido exclusivamente através do site oficial do fabricante. 
+                O Phynamax é vendido exclusivamente através do site oficial do fabricante. 
                 Esta exclusividade garante:
               </p>
             </div>
@@ -428,11 +399,11 @@ export default function OzenvittaPage() {
                   Acessar o Site Oficial
                 </h3>
                 <p className="text-gray-900 max-w-2xl mx-auto">
-                  Garanta seu Ozenvitta original com as melhores condições e total segurança.
+                  Garanta seu Phynamax original com as melhores condições e total segurança.
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://mon.net.br/3i6gsj"
+                    href="https://www.phynamaxoficial.com/phynamax-2/"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
@@ -468,14 +439,14 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Após uma análise detalhada do Ozenvitta, incluindo sua composição, 
+                Após uma análise detalhada do Phynamax, incluindo sua composição, 
                 eficácia, segurança e custo-benefício, podemos concluir que este é 
-                um suplemento altamente eficaz para quem busca um auxílio natural no 
-                processo de emagrecimento.
+                um suplemento eficaz para quem busca um auxílio natural no processo 
+                de emagrecimento.
               </p>
               <p className="text-gray-900">
-                Seus pontos fortes incluem a formulação natural inovadora, resultados 
-                expressivos reportados por usuários e excelente perfil de segurança.
+                Seus pontos fortes incluem a formulação natural, resultados expressivos 
+                reportados por usuários e excelente perfil de segurança.
               </p>
             </div>
 
@@ -487,7 +458,7 @@ export default function OzenvittaPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Ingredientes naturais premium</span>
+                    <span className="text-gray-900">Ingredientes naturais de qualidade</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
@@ -537,7 +508,7 @@ export default function OzenvittaPage() {
                         <Star key={star} className="h-6 w-6 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <span className="text-2xl font-bold text-gray-900">4.8</span>
+                    <span className="text-2xl font-bold text-gray-900">4.7</span>
                   </div>
                 </div>
                 <div className="text-right">
@@ -566,16 +537,17 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Ana Paula</h4>
+                    <h4 className="font-medium text-gray-900">Juliana Santos</h4>
                     <span className="text-sm text-gray-500">• 2 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Comecei a usar o Ozenvitta há 3 semanas e já perdi 4kg! Estou muito 
-                    satisfeita com os resultados. Sinto menos fome e mais disposição.
+                    Comecei a usar o Phynamax há 2 meses e já perdi 11kg! Além do peso, 
+                    minha ansiedade por comida diminuiu muito e me sinto muito mais disposta. 
+                    Super recomendo!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">15 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">32 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -589,11 +561,11 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Carlos Silva</h4>
+                    <h4 className="font-medium text-gray-900">Carlos Eduardo</h4>
                     <span className="text-sm text-gray-500">• 4 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Posso tomar junto com outros suplementos? Faço musculação e uso whey protein.
+                    Posso tomar junto com outros suplementos? Faço academia e uso whey protein.
                   </p>
                   {/* Resposta */}
                   <div className="bg-white rounded-lg p-4 mt-4">
@@ -609,8 +581,10 @@ export default function OzenvittaPage() {
                       <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
                     </div>
                     <p className="text-gray-700">
-                      Olá Carlos! Sim, você pode tomar o Ozenvitta junto com whey protein, mas 
-                      recomendamos manter um intervalo de 30 minutos entre eles para melhor absorção.
+                      Olá Carlos! Sim, você pode tomar o Phynamax junto com whey protein 
+                      e outros suplementos esportivos. A formulação natural não interfere 
+                      com esses suplementos. Apenas mantenha um intervalo de 2 horas entre 
+                      eles para melhor absorção.
                     </p>
                   </div>
                 </div>
@@ -625,16 +599,17 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Marina Costa</h4>
+                    <h4 className="font-medium text-gray-900">Patricia Lima</h4>
                     <span className="text-sm text-gray-500">• 1 semana atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Estou muito feliz com os resultados! Em 2 meses perdi 8kg e várias medidas. 
-                    O melhor é que não sinto aquela ansiedade por comida que tinha antes.
+                    Estou no terceiro mês de uso e os resultados são incríveis! Já perdi 15kg 
+                    e minhas medidas diminuíram muito. Minha autoestima melhorou 100% e me 
+                    sinto muito mais confiante!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">20 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">45 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -651,11 +626,11 @@ export default function OzenvittaPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Roberto Almeida</h4>
+                        <h4 className="font-medium text-gray-900">Ricardo Souza</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Quanto tempo demora para entregar? Moro no interior de São Paulo.
+                        Tenho diabetes tipo 2, posso tomar o Phynamax?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -671,8 +646,10 @@ export default function OzenvittaPage() {
                           <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Roberto! A entrega para o interior de São Paulo leva de 5 a 7 dias úteis. 
-                          Todas as entregas são feitas com código de rastreamento para seu acompanhamento.
+                          Olá Ricardo! Sim, o Phynamax pode ser usado por pessoas com diabetes 
+                          tipo 2, pois seus ingredientes são naturais e não interferem com a 
+                          glicemia. No entanto, recomendo consultar seu médico antes de iniciar 
+                          o uso e manter o monitoramento regular da glicose.
                         </p>
                       </div>
                     </div>
@@ -687,34 +664,11 @@ export default function OzenvittaPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Lucia Oliveira</h4>
+                        <h4 className="font-medium text-gray-900">Amanda Costa</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Excelente produto! Já estou no terceiro mês de uso e perdi 12kg no total. 
-                        A energia extra ajuda muito nos exercícios físicos.
-                      </p>
-                      <div className="flex items-center gap-2">
-                        <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                        <span className="text-sm text-gray-500">25 pessoas acharam útil</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Comentário 6 */}
-                <div className="bg-gray-50 rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
-                      <User className="h-6 w-6 text-gray-600" />
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Fernanda Lima</h4>
-                        <span className="text-sm text-gray-500">• 3 semanas atrás</span>
-                      </div>
-                      <p className="text-gray-700 mb-4">
-                        Tem algum efeito colateral? Estou com receio de começar.
+                        Qual o melhor horário para tomar? E preciso fazer exercícios junto?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -730,9 +684,10 @@ export default function OzenvittaPage() {
                           <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Fernanda! O Ozenvitta é um suplemento natural e seguro, sem efeitos 
-                          colaterais relatados. Como todo suplemento, recomendamos seguir a posologia 
-                          indicada na embalagem.
+                          Olá Amanda! O ideal é tomar o Phynamax pela manhã, antes do café. 
+                          Quanto aos exercícios, não são obrigatórios para o funcionamento do 
+                          suplemento, mas a combinação com atividade física regular potencializa 
+                          os resultados e traz benefícios adicionais para sua saúde.
                         </p>
                       </div>
                     </div>
@@ -790,8 +745,6 @@ export default function OzenvittaPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
-}
+} 

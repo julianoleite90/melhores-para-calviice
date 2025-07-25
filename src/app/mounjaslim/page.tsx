@@ -65,20 +65,20 @@ export default function MounjaslimPage() {
             <div className="flex items-center gap-3">
               <Image
                 src="/images/oavatar.png"
-                alt="Dra. Maria Silva"
+                alt="Maria Silva"
                 width={48}
                 height={48}
                 className="rounded-full"
               />
               <div className="text-sm">
-                <p className="font-medium text-gray-900">Dra. Maria Silva</p>
+                <p className="font-medium text-gray-900">Maria Silva</p>
                 <p className="text-gray-600">Especialista em Nutrição</p>
               </div>
             </div>
 
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <CalendarDays className="h-4 w-4" />
-              <span>Última atualização: 22 de Abril de 2025</span>
+              <span>Última atualização: 22 de Julho de 2025</span>
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
@@ -572,12 +572,12 @@ export default function MounjaslimPage() {
                     <div className="flex items-center gap-2 mb-2">
                       <Image
                         src="/images/oavatar.png"
-                        alt="Dra. Maria Silva"
+                        alt="Maria Silva"
                         width={24}
                         height={24}
                         className="rounded-full"
                       />
-                      <span className="font-medium text-gray-900">Dra. Maria Silva</span>
+                      <span className="font-medium text-gray-900">Maria Silva</span>
                       <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
                     </div>
                     <p className="text-gray-700">
@@ -637,12 +637,12 @@ export default function MounjaslimPage() {
                         <div className="flex items-center gap-2 mb-2">
                           <Image
                             src="/images/oavatar.png"
-                            alt="Dra. Maria Silva"
+                            alt="Maria Silva"
                             width={24}
                             height={24}
                             className="rounded-full"
                           />
-                          <span className="font-medium text-gray-900">Dra. Maria Silva</span>
+                          <span className="font-medium text-gray-900">Maria Silva</span>
                           <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
                         </div>
                         <p className="text-gray-700">
@@ -675,12 +675,12 @@ export default function MounjaslimPage() {
                         <div className="flex items-center gap-2 mb-2">
                           <Image
                             src="/images/oavatar.png"
-                            alt="Dra. Maria Silva"
+                            alt="Maria Silva"
                             width={24}
                             height={24}
                             className="rounded-full"
                           />
-                          <span className="font-medium text-gray-900">Dra. Maria Silva</span>
+                          <span className="font-medium text-gray-900">Maria Silva</span>
                           <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
                         </div>
                         <p className="text-gray-700">

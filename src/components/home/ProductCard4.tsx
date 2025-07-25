@@ -10,8 +10,8 @@ export function ProductCard4() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/newdetox-400.webp"
-              alt="New Detox: Especialista em desintoxicação"
+              src="/images/sb2-400.webp"
+              alt="Sb2 Turbo: Especialista em queima de gordura"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard4() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">4º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">New Detox</h3>
+                <h3 className="text-xl font-bold text-gray-900">Sb2 Turbo</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Especialista em desintoxicação
+                Especialista em queima de gordura
               </p>
             </div>
 
@@ -39,7 +39,7 @@ export function ProductCard4() {
                 ))}
               </div>
               <div className="flex items-baseline gap-1">
-                <span className="text-lg font-bold text-gray-900">4.4</span>
+                <span className="text-lg font-bold text-gray-900">4.6</span>
                 <span className="text-gray-500">/5</span>
               </div>
             </div>
@@ -49,13 +49,13 @@ export function ProductCard4() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">New Detox</span> é elogiado por reduzir inchaço em 7 dias, com 70% dos usuários relatando maior leveza e melhora na digestão.
+                O <span className="text-gray-900 font-medium">Sb2 Turbo</span> é um poderoso suplemento natural para emagrecimento que se destaca por sua fórmula termogênica avançada.
               </p>
               <p className="text-gray-700">
-                A fórmula foca na eliminação de toxinas e retenção de líquidos. Ingredientes como <span className="text-gray-900 font-medium">hibisco e chlorella</span> promovem ação diurética e desintoxicante, enquanto o <span className="text-gray-900 font-medium">psyllium</span> melhora a função intestinal.
+                Desenvolvido especificamente para <span className="text-gray-900 font-medium">acelerar o metabolismo</span> e <span className="text-gray-900 font-medium">queimar gordura</span> de forma mais eficiente, especialmente na região abdominal.
               </p>
               <p className="text-gray-900 font-medium">
-                70% dos usuários notam menos inchaço em 7 dias, com significativa melhora na digestão e bem-estar geral.
+                Mais de 85% dos usuários relatam aumento significativo de energia e perda de peso nas primeiras semanas de uso.
               </p>
             </div>
 
@@ -64,10 +64,10 @@ export function ProductCard4() {
               <div className="bg-gray-50 rounded-lg p-2.5">
                 <div className="flex items-center gap-2 mb-1">
                   <CheckCircle2 className="w-5 h-5 text-gray-700" />
-                  <h4 className="font-medium text-gray-900">Composição</h4>
+                  <h4 className="font-medium text-gray-900">Resultados</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Chlorella (desintoxicação), Hibisco (diurético), Psyllium (fibra), Gengibre (anti-inflamatório)
+                  Perda média de <span className="font-medium">4-6kg</span> em 30 dias
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard4() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Retenção de líquidos ou má digestão
+                  Adultos que buscam acelerar o metabolismo
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard4() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Evitar em caso de alergia a algas ou pressão baixa
+                  Gestantes, lactantes ou cardiopatas
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export function ProductCard4() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fórmula especializada em desintoxicação e redução de inchaço.
+                  Fórmula termogênica potente com foco em energia e queima de gordura.
                 </p>
               </div>
             </div>
@@ -108,14 +108,14 @@ export function ProductCard4() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://mon.net.br/3eefce"
+                href="https://mon.net.br/3eefqg"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/newdetox"
+                href="/sb2"
                 variant="secondary"
                 className="flex-1"
               >

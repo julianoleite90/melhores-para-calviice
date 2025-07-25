@@ -10,8 +10,8 @@ export function ProductCard2() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/sb2-400.webp"
-              alt="Sb2 Turbo: Especialista em queima de gordura"
+              src="/images/definamax-400.webp"
+              alt="Definamax: Melhor avaliado pelos usuários"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard2() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">2º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Sb2 Turbo</h3>
+                <h3 className="text-xl font-bold text-gray-900">Definamax</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Especialista em queima de gordura
+                Escolhido por 9 a cada 10 pessoas que buscam remedio para emagrecer
               </p>
             </div>
 
@@ -39,7 +39,7 @@ export function ProductCard2() {
                 ))}
               </div>
               <div className="flex items-baseline gap-1">
-                <span className="text-lg font-bold text-gray-900">4.6</span>
+                <span className="text-lg font-bold text-gray-900">4.8</span>
                 <span className="text-gray-500">/5</span>
               </div>
             </div>
@@ -49,13 +49,13 @@ export function ProductCard2() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Sb2 Turbo</span> é um poderoso suplemento natural para emagrecimento que se destaca por sua fórmula termogênica avançada.
+                O <span className="text-gray-900 font-medium">Definamax</span> conquista o 2º lugar no ranking de 2025 como um dos melhores remédios naturais, comprovado por milhares de usuários satisfeitos.
               </p>
               <p className="text-gray-700">
-                Desenvolvido especificamente para <span className="text-gray-900 font-medium">acelerar o metabolismo</span> e <span className="text-gray-900 font-medium">queimar gordura</span> de forma mais eficiente, especialmente na região abdominal.
+                Sua poderosa fórmula natural age em três frentes: promove <span className="text-gray-900 font-medium">saciedade duradoura</span>, <span className="text-gray-900 font-medium">acelera seu metabolismo</span> para queimar mais calorias e atua na <span className="text-gray-900 font-medium">redução da gordura localizada</span>.
               </p>
               <p className="text-gray-900 font-medium">
-                Mais de 85% dos usuários relatam aumento significativo de energia e perda de peso nas primeiras semanas de uso.
+                Impressionantes 95% dos consumidores reportam total satisfação com os resultados, experimentando mais energia e menos inchaço.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard2() {
                   <h4 className="font-medium text-gray-900">Resultados</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Perda média de <span className="font-medium">4-6kg</span> em 30 dias
+                  Perda média de <span className="font-medium">5-7kg</span> em 30 dias
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard2() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Adultos que buscam acelerar o metabolismo
+                  Adultos buscando emagrecimento seguro e eficaz
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard2() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Gestantes, lactantes ou cardiopatas
+                  Gestantes, lactantes ou hipertensos
                 </p>
               </div>
             </div>
@@ -100,7 +100,10 @@ export function ProductCard2() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fórmula termogênica potente com foco em energia e queima de gordura.
+                  Fibras alimentares inteligentes que atuam como uma rede, capturando e eliminando as gorduras antes da absorção.
+                </p>
+                <p>
+                  Tecnologia exclusiva que potencializa a capacidade natural das fibras em reduzir a absorção de gorduras em até 72%.
                 </p>
               </div>
             </div>
@@ -108,14 +111,14 @@ export function ProductCard2() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://mon.net.br/3eefqg"
+                href="https://definamaxoficial.com/definamax"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/sb2"
+                href="/definamax"
                 variant="secondary"
                 className="flex-1"
               >

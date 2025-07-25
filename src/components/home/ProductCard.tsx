@@ -10,8 +10,8 @@ export function ProductCard() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/definamax-400.webp"
-              alt="Definamax: Melhor avaliado pelos usuários"
+              src="/images/phyna-400.png"
+              alt="Phynamax: Líder absoluto em emagrecimento natural"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">1º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Definamax</h3>
+                <h3 className="text-xl font-bold text-gray-900">Phynamax</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Escolhido por 9 a cada 10 pessoas que buscam remedio para emagrecer
+                Líder absoluto em emagrecimento natural
               </p>
             </div>
 
@@ -49,13 +49,13 @@ export function ProductCard() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Definamax</span> lidera o ranking de 2025 como o melhor remédio natural, comprovado por milhares de usuários satisfeitos.
+                O <span className="text-gray-900 font-medium">Phynamax</span> revoluciona o mercado de emagrecimento com sua fórmula avançada e resultados excepcionais comprovados por milhares de usuários.
               </p>
               <p className="text-gray-700">
-                Sua poderosa fórmula natural age em três frentes: promove <span className="text-gray-900 font-medium">saciedade duradoura</span>, <span className="text-gray-900 font-medium">acelera seu metabolismo</span> para queimar mais calorias e atua na <span className="text-gray-900 font-medium">redução da gordura localizada</span>.
+                Sua composição premium combina <span className="text-gray-900 font-medium">farinha de linhaça bioativa</span>, <span className="text-gray-900 font-medium">cactinea concentrada</span> e <span className="text-gray-900 font-medium">complexo vitamínico otimizado</span> para máxima eficácia na queima de gordura e controle de apetite.
               </p>
               <p className="text-gray-900 font-medium">
-                Impressionantes 98% dos consumidores reportam total satisfação com os resultados, experimentando mais energia e menos inchaço.
+                Impressionantes 96% dos usuários reportam perda significativa de peso e aumento da energia em apenas 4 semanas.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard() {
                   <h4 className="font-medium text-gray-900">Resultados</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Perda média de <span className="font-medium">5-7kg</span> em 30 dias
+                  Perda média de <span className="font-medium">6-8kg</span> em 30 dias
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Adultos buscando emagrecimento seguro e eficaz
+                  Adultos que buscam resultados rápidos e seguros
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Gestantes, lactantes ou hipertensos
+                  Gestantes, lactantes ou menores de 18 anos
                 </p>
               </div>
             </div>
@@ -100,10 +100,10 @@ export function ProductCard() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fibras alimentares inteligentes que atuam como uma rede, capturando e eliminando as gorduras antes da absorção.
+                  Fórmula exclusiva com tecnologia de liberação sustentada que maximiza a absorção dos princípios ativos.
                 </p>
                 <p>
-                  Tecnologia exclusiva que potencializa a capacidade natural das fibras em reduzir a absorção de gorduras em até 72%.
+                  Única combinação que atua simultaneamente no metabolismo, saciedade e queima de gordura localizada.
                 </p>
               </div>
             </div>
@@ -111,14 +111,14 @@ export function ProductCard() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://definamaxoficial.com/definamax"
+                href="https://www.phynamaxoficial.com/phynamax-2/"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/definamax"
+                href="/phynamax"
                 variant="secondary"
                 className="flex-1"
               >
@@ -128,7 +128,7 @@ export function ProductCard() {
             
             {/* Aviso */}
             <p className="text-center text-gray-500 text-sm">
-              Não vendemos esses produtos, para comprar clique no botão acima e seja direcioando para o site oficial do produto.
+              Não vendemos esses produtos, para comprar clique no botão acima e seja direcionado para o site oficial do produto.
             </p>
           </div>
         </div>

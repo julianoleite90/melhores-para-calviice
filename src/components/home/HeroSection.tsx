@@ -24,7 +24,7 @@ export function HeroSection() {
             <div className="space-y-6">
               <div className="flex items-center gap-2 text-sm text-emerald-700">
                 <CalendarDays className="h-4 w-4" />
-                <span>Atualização: 22 de Abril de 2025</span>
+                <span>Atualização: 22 de Julho de 2025</span>
               </div>
 
               <div className="space-y-4">
@@ -61,14 +61,14 @@ export function HeroSection() {
                         <div className="w-12 h-12 rounded-full overflow-hidden bg-emerald-100 relative">
                           <Image
                             src="/images/oavatar.png"
-                            alt="Dra. Maria Silva"
+                            alt="Maria Silva"
                             fill
                             className="object-cover"
                           />
                         </div>
                         <div>
                           <div className="text-sm text-gray-500">Por</div>
-                          <div className="text-lg font-medium text-gray-900">Dra. Maria Silva</div>
+                          <div className="text-lg font-medium text-gray-900">Maria Silva</div>
                           <div className="text-sm text-emerald-600">Especialista em emagrecimento</div>
                         </div>
                       </div>
@@ -127,14 +127,14 @@ export function HeroSection() {
                     <div className="w-12 h-12 rounded-full overflow-hidden bg-emerald-100 relative">
                       <Image
                         src="/images/oavatar.png"
-                        alt="Dra. Maria Silva"
+                        alt="Maria Silva"
                         fill
                         className="object-cover"
                       />
                     </div>
                     <div>
                       <div className="text-sm text-gray-500">Por</div>
-                      <div className="text-lg font-medium text-gray-900">Dra. Maria Silva</div>
+                      <div className="text-lg font-medium text-gray-900">Maria Silva</div>
                       <div className="text-sm text-emerald-600">Especialista em emagrecimento</div>
                     </div>
                   </div>
@@ -329,8 +329,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/definamax-400.webp"
-                          alt="Definamax"
+                          src="/images/phyna-400.png"
+                          alt="Phynamax"
                           fill
                           className="object-contain"
                         />
@@ -340,12 +340,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-emerald-600">1°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Definamax</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Phynamax</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Melhor custo-benefício e resultados mais rápidos (5-7kg em 30 dias)</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Líder absoluto com resultados excepcionais (6-8kg em 30 dias)</p>
                           </div>
                           <a
-                            href="https://definamaxoficial.com/definamax"
+                            href="https://www.phynamaxoficial.com/phynamax-2/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -361,8 +361,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/sb2-400.webp"
-                          alt="Sb2 Turbo"
+                          src="/images/definamax-400.webp"
+                          alt="Definamax"
                           fill
                           className="object-contain"
                         />
@@ -372,12 +372,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">2°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Sb2 Turbo</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Definamax</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em energia e queima de gordura localizada</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Melhor custo-benefício e resultados rápidos (5-7kg em 30 dias)</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3eefqg"
+                            href="https://definamaxoficial.com/definamax"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -425,8 +425,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/newdetox-400.webp"
-                          alt="New Detox"
+                          src="/images/sb2-400.webp"
+                          alt="Sb2 Turbo"
                           fill
                           className="object-contain"
                         />
@@ -436,12 +436,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">4°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">New Detox</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Sb2 Turbo</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Especialista em desintoxicação e redução de inchaço</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em energia e queima de gordura localizada</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3eefce"
+                            href="https://mon.net.br/3eefqg"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -457,8 +457,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/monja-400.webp"
-                          alt="MounjaSlim"
+                          src="/images/newdetox-400.webp"
+                          alt="New Detox"
                           fill
                           className="object-contain"
                         />
@@ -468,12 +468,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">5°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">MounjaSlim</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">New Detox</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Opção econômica com resultados graduais e sustentáveis</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Especialista em desintoxicação e redução de inchaço</p>
                           </div>
                           <a
-                            href="https://app.monetizze.com.br/r/BGZ1881505"
+                            href="https://mon.net.br/3eefce"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
