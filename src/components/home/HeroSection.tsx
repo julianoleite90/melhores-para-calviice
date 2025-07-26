@@ -377,7 +377,7 @@ export function HeroSection() {
                             <p className="text-base md:text-lg text-gray-600 mt-1">Melhor custo-benefício e resultados rápidos (5-7kg em 30 dias)</p>
                           </div>
                           <a
-                            href="https://definamaxoficial.com/definamax"
+                            href="https://www.definamaxoficial.com/produto"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"

@@ -111,7 +111,7 @@ export function ProductCard2() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://definamaxoficial.com/definamax"
+                href="https://www.definamaxoficial.com/produto"
                 variant="primary"
                 className="flex-1"
               >

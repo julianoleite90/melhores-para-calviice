@@ -168,7 +168,7 @@ export default function DefinamaxPage() {
                 />
               </div>
               <CtaButton 
-                href="https://definamaxoficial.com/definamax"
+                href="https://www.definamaxoficial.com/produto"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -454,7 +454,7 @@ export default function DefinamaxPage() {
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://definamaxoficial.com/definamax"
+                    href="https://www.definamaxoficial.com/produto"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
