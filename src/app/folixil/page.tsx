@@ -71,7 +71,7 @@ export default function FolixilPage() {
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Análise Completa do Folixil: O Melhor Produto para Calvície em 2025?
+              Análise Completa do Folixil: O Melhor Produto para crescer cabelos em 2025?
             </h1>
 
             <div className="prose prose-lg text-gray-900">

@@ -29,7 +29,7 @@ export function HeroSection() {
 
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  Os 5 Melhores Remédios para Calvície em 2025 – Análise Completa e Imparcial
+                  Os 5 Melhores Remédios para crescer cabelos em 2025 – Análise Completa e Imparcial
                 </h1>
 
                 <p className="text-xl text-gray-700">

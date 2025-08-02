@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Melhores Capilares - Remédios para Calvície",
-  description: "Os 5 melhores remédios para calvície em 2025 - análise completa e imparcial",
+  description: "Os 5 melhores remédios para crescer cabelos em 2025 – análise completa e imparcial",
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#ffffff",
   manifest: "/manifest.json",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: "https://melhores-capilares.com.br",
     siteName: "Melhores Capilares",
     title: "Melhores Capilares - Remédios para Calvície",
-    description: "Os 5 melhores remédios para calvície em 2025 - análise completa e imparcial",
+    description: "Os 5 melhores remédios para crescer cabelos em 2025 – análise completa e imparcial",
   },
 };
 
