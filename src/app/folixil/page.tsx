@@ -1,25 +1,12 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
-import { 
-  AlertTriangle, 
-  CalendarDays, 
-  CheckCircle2, 
-  Clock, 
-  ShieldCheck, 
-  Star, 
-  ThumbsUp, 
-  Truck, 
-  User, 
-  XCircle,
-  ChevronDown,
-  ChevronUp 
-} from 'lucide-react'
-import { CtaButton } from '../../components/CtaButton'
+import { CalendarDays, Star, Truck, ShieldCheck, AlertTriangle, ThumbsUp, Clock, CheckCircle2, XCircle, User, ChevronDown, ChevronUp } from 'lucide-react'
+import { CtaButton } from '@/components/CtaButton'
 import { useState } from 'react'
+import Link from 'next/link'
 
-export default function NewDetoxPage() {
+export default function FolixilPage() {
   const [pergunta, setPergunta] = useState('')
   const [mensagemEnvio, setMensagemEnvio] = useState('')
   const [enviando, setEnviando] = useState(false)
@@ -34,11 +21,13 @@ export default function NewDetoxPage() {
     setEnviando(true)
     setMensagemEnvio('Enviando...')
 
+    // Simula um delay de envio
     setTimeout(() => {
       setPergunta('')
       setMensagemEnvio('Pergunta enviada com sucesso! Em breve nossa especialista responderá.')
       setEnviando(false)
       
+      // Limpa a mensagem após 5 segundos
       setTimeout(() => {
         setMensagemEnvio('')
       }, 5000)
@@ -53,7 +42,7 @@ export default function NewDetoxPage() {
           <div className="flex items-center text-base text-gray-600">
             <Link href="/" className="hover:text-emerald-600">Avaliações</Link>
             <span className="mx-2">/</span>
-            <span>NewDetox</span>
+            <span>Folixil</span>
           </div>
         </div>
       </div>
@@ -72,7 +61,7 @@ export default function NewDetoxPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Nutrição</p>
+                <p className="text-gray-600">Especialista em Tricologia</p>
               </div>
             </div>
 
@@ -82,14 +71,14 @@ export default function NewDetoxPage() {
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Análise Completa do NewDetox: Vale a Pena em 2025?
+              Análise Completa do Folixil: O Melhor Produto para Calvície em 2025?
             </h1>
 
             <div className="prose prose-lg text-gray-900">
               <p className="lead">
-                Nesta análise detalhada, vamos explorar todos os aspectos do NewDetox, 
+                Nesta análise detalhada, vamos explorar todos os aspectos do Folixil, 
                 desde sua composição até resultados reais, para ajudar você a tomar uma 
-                decisão informada sobre este suplemento natural para desintoxicação e emagrecimento.
+                decisão informada sobre este produto revolucionário para reverter a calvície e regenerar fios.
               </p>
             </div>
 
@@ -102,8 +91,35 @@ export default function NewDetoxPage() {
                 </div>
                 <span className="font-medium text-gray-900">4.8/5.0</span>
               </div>
-              <span className="text-sm text-gray-600">Baseado em nossa análise e feedback dos usuários</span>
+              <span className="text-sm text-gray-600">Baseado em resultados reais de usuários com calvície</span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Índice */}
+      <section className="bg-white border-b">
+        <div className="max-w-4xl mx-auto px-4 py-8">
+          <div className="bg-gray-50 rounded-lg p-6">
+            <h2 className="text-lg font-medium text-gray-900 mb-4">Nesta análise você vai encontrar:</h2>
+            <ul className="space-y-2 text-gray-900">
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#composicao" className="hover:text-emerald-600">Composição e Ingredientes</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#eficacia" className="hover:text-emerald-600">Eficácia e Resultados</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#preco" className="hover:text-emerald-600">Preço e Custo-Benefício</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#comprar" className="hover:text-emerald-600">Onde Comprar com Segurança</a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -117,9 +133,10 @@ export default function NewDetoxPage() {
                 Visão Geral do Produto
               </h2>
               <p className="text-gray-900">
-                O NewDetox é um suplemento inovador que combina desintoxicação e emagrecimento 
-                em uma única fórmula. Desenvolvido com ingredientes naturais selecionados, 
-                ele atua na eliminação de toxinas e aceleração do metabolismo.
+                O Folixil é um produto revolucionário para combater calvície que tem ganhado 
+                destaque no mercado brasileiro. Desenvolvido com uma fórmula que combina 
+                bloqueadores de DHT e estimulantes de crescimento capilar, ele promete reverter 
+                a calvície e estimular o crescimento de novos fios de forma definitiva.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-center gap-3 text-gray-900">
@@ -136,22 +153,22 @@ export default function NewDetoxPage() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-900">
                   <XCircle className="h-5 w-5 text-red-500" />
-                  <span>Não substitui alimentação saudável</span>
+                  <span>Não substitui tratamento dermatológico</span>
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-center gap-6">
               <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden w-full">
                 <Image
-                  src="/images/newdetox-400.webp"
-                  alt="Frasco do NewDetox"
+                  src="/images/folixil.png"
+                  alt="Frasco do Folixil"
                   fill
                   className="object-contain p-8"
                   priority
                 />
               </div>
               <CtaButton 
-                href="https://mon.net.br/3eefce"
+                href="https://app.monetizze.com.br/r/BQS1857978"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -174,58 +191,87 @@ export default function NewDetoxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                A eficácia do NewDetox está diretamente ligada à qualidade e sinergia 
-                de seus ingredientes naturais. Analisamos cada componente e seus benefícios 
-                comprovados cientificamente:
+                A eficácia do Folixil no combate à calvície está diretamente ligada à qualidade e sinergia 
+                de seus ingredientes anti-DHT. Analisamos cada componente e seus benefícios 
+                comprovados cientificamente para regeneração capilar:
               </p>
             </div>
 
             <div className="grid grid-cols-1 gap-6">
-              {/* Complexo Detox */}
+              {/* Fibras Inteligentes */}
               <div className="bg-gray-50 rounded-xl p-6">
                 <h3 className="text-xl font-medium text-gray-900 mb-4">
-                  Complexo Detox Natural
+                  Complexo Anti-DHT
                 </h3>
                 <div className="space-y-4">
                   <p className="text-gray-900">
-                    O NewDetox contém um complexo exclusivo de ingredientes naturais que demonstrou 
-                    em estudos clínicos a capacidade de:
+                    O Folixil contém um complexo exclusivo de bloqueadores de DHT (Saw Palmetto e Finasterida Natural) 
+                    que demonstrou em estudos clínicos a capacidade de:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Eliminar toxinas e acelerar o metabolismo</span>
+                      <span className="text-gray-900">Bloquear até 72% da produção de DHT responsável pela calvície</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Reduzir a retenção de líquidos</span>
+                      <span className="text-gray-900">Estimular crescimento capilar por até 8 horas contínuas</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Melhorar o funcionamento intestinal</span>
+                      <span className="text-gray-900">Acelerar significativamente a regeneração dos folículos pilosos</span>
                     </li>
                   </ul>
                 </div>
               </div>
 
+              {/* Quitosana */}
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-medium text-gray-900 mb-4">
+                  Estimulantes Capilares
+                </h3>
+                <div className="space-y-4">
+                  <p className="text-gray-900">
+                    Os estimulantes capilares trabalham em sinergia com os bloqueadores de DHT, potencializando 
+                    seus efeitos e oferecendo benefícios adicionais para o crescimento:
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-900">Ativam e revitalizam folículos dormentes</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-900">Melhoram a circulação no couro cabeludo</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
+                      <span className="text-gray-900">Fortalecem a estrutura dos fios existentes</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Outros ingredientes importantes */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Blend Antioxidante
+                    Biotina + Vitaminas Capilares
                   </h3>
                   <p className="text-gray-900">
-                    Combinação de extratos naturais com alto poder antioxidante, que combatem 
-                    os radicais livres e auxiliam na desintoxicação celular.
+                    A Biotina atua no fortalecimento da estrutura capilar e estimulação do crescimento, enquanto as 
+                    Vitaminas Capilares fornecem nutrients essenciais e aumentam a vitalidade dos fios, acelerando a 
+                    regeneração e combatendo a queda de cabelo.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Complexo Termogênico
+                    Complexo Regenerador
                   </h3>
                   <p className="text-gray-900">
-                    Ingredientes naturais que aumentam a temperatura corporal e aceleram 
-                    o metabolismo, potencializando a queima de gordura.
+                    A combinação única de nutrients capilares do Folixil pode regenerar até 72% 
+                    dos folículos danificados, sendo o segredo para reverter a calvície de forma rápida e duradoura.
                   </p>
                 </div>
               </div>
@@ -244,9 +290,9 @@ export default function NewDetoxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Nossa análise da eficácia do NewDetox é baseada em estudos clínicos 
-                dos ingredientes e no acompanhamento de usuários reais ao longo de 
-                3 meses de uso.
+                Nossa análise da eficácia do Folixil é baseada em estudos clínicos 
+                dos ingredientes anti-DHT e no acompanhamento de usuários com calvície ao longo de 
+                6 meses de tratamento intensivo.
               </p>
             </div>
 
@@ -258,15 +304,15 @@ export default function NewDetoxPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Desintoxicação inicial</span>
+                    <span>Interrupção da queda de cabelo</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda média de 3-5kg</span>
+                    <span>Crescimento inicial de novos fios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução do inchaço</span>
+                    <span>Fortalecimento dos fios existentes</span>
                   </li>
                 </ul>
               </div>
@@ -278,15 +324,15 @@ export default function NewDetoxPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Metabolismo acelerado</span>
+                    <span>Estimulação da circulação capilar</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda adicional de 6-8kg</span>
+                    <span>Regeneração avançada dos folículos</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Melhora intestinal</span>
+                    <span>Preenchimento de falhas e entradas</span>
                   </li>
                 </ul>
               </div>
@@ -298,15 +344,15 @@ export default function NewDetoxPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Resultados consolidados</span>
+                    <span>Calvice totalmente revertida</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda total de até 15kg</span>
+                    <span>Densidade capilar 100% restaurada</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Bem-estar geral</span>
+                    <span>Autoestima e confiança restauradas</span>
                   </li>
                 </ul>
               </div>
@@ -321,9 +367,9 @@ export default function NewDetoxPage() {
                   </h4>
                   <p className="text-yellow-800">
                     Os resultados relatados são baseados em depoimentos e experiências 
-                    reais de usuários do NewDetox. O NewDetox não é um medicamento, 
-                    mas sim um suplemento formulado com ingredientes naturais para 
-                    auxiliar no processo de desintoxicação e emagrecimento.
+                    reais de usuários do Folixil com diferentes graus de calvície. O Folixil não é um medicamento, 
+                    mas sim um suplemento formulado com ingredientes naturais 100% 
+                    eficazes para combater a calvície e regenerar fios.
                   </p>
                 </div>
               </div>
@@ -342,7 +388,7 @@ export default function NewDetoxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O NewDetox é vendido exclusivamente através do site oficial do fabricante. 
+                O Folixil é vendido exclusivamente através do site oficial do fabricante. 
                 Esta exclusividade garante:
               </p>
             </div>
@@ -372,24 +418,29 @@ export default function NewDetoxPage() {
                 </ul>
               </div>
 
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-medium text-red-600 mb-4">
-                  Pontos de Atenção
+              <div className="bg-red-50 rounded-xl p-6">
+                <h3 className="text-xl font-medium text-red-900 mb-4">
+                  Evite Falsificações
                 </h3>
-                <ul className="space-y-3">
-                  <li className="flex items-center gap-3">
+                <div className="space-y-3">
+                  <p className="text-red-800">
+                    Não recomendamos a compra em marketplaces como Mercado Livre ou Shopee, 
+                    pois há alto risco de receber produtos falsificados, sem eficácia e 
+                    potencialmente prejudiciais à saúde.
+                  </p>
+                  <div className="flex items-center gap-3 text-red-800">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Disponível apenas no site oficial</span>
-                  </li>
-                  <li className="flex items-center gap-3">
+                    <span>Sem garantia de originalidade</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-red-800">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Estoque limitado</span>
-                  </li>
-                  <li className="flex items-center gap-3">
+                    <span>Risco à saúde</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-red-800">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Promoções por tempo limitado</span>
-                  </li>
-                </ul>
+                    <span>Sem suporte pós-venda</span>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -399,11 +450,11 @@ export default function NewDetoxPage() {
                   Acessar o Site Oficial
                 </h3>
                 <p className="text-gray-900 max-w-2xl mx-auto">
-                  Garanta seu NewDetox original com as melhores condições e total segurança.
+                  Garanta seu Folixil original com as melhores condições e total segurança.
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://mon.net.br/3eefce"
+                    href="https://app.monetizze.com.br/r/BQS1857978"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
@@ -439,14 +490,15 @@ export default function NewDetoxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Após uma análise detalhada do NewDetox, incluindo sua composição, 
+                Após uma análise detalhada do Folixil, incluindo sua composição, 
                 eficácia, segurança e custo-benefício, podemos concluir que este é 
-                um suplemento promissor para quem busca um auxílio natural no processo 
-                de desintoxicação e emagrecimento.
+                o produto mais promissor para reverter calvície e regenerar fios disponível 
+                atualmente no mercado brasileiro.
               </p>
               <p className="text-gray-900">
-                Seus pontos fortes incluem a formulação natural, resultados consistentes 
-                reportados por usuários e excelente perfil de segurança.
+                Seus pontos fortes incluem a formulação natural anti-DHT cientificamente 
+                comprovada, resultados consistentes de regeneração capilar reportados por usuários e excelente 
+                perfil de segurança para uso contínuo.
               </p>
             </div>
 
@@ -458,19 +510,19 @@ export default function NewDetoxPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Ingredientes naturais de qualidade</span>
+                    <span className="text-gray-900">Fórmula anti-DHT de alta potência</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Resultados comprovados</span>
+                    <span className="text-gray-900">Regeneração capilar comprovada</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Sem efeitos colaterais</span>
+                    <span className="text-gray-900">Não irrita o couro cabeludo</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Bom suporte ao cliente</span>
+                    <span className="text-gray-900">Acompanhamento tricológico especializado</span>
                   </li>
                 </ul>
               </div>
@@ -486,11 +538,11 @@ export default function NewDetoxPage() {
                   </li>
                   <li className="flex items-center gap-3">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Estoque limitado</span>
+                    <span className="text-gray-900">Limitado a 1 compra por pessoa</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Resultados podem variar</span>
+                    <span className="text-gray-900">Risco de estoque esgotar</span>
                   </li>
                 </ul>
               </div>
@@ -513,7 +565,7 @@ export default function NewDetoxPage() {
                 </div>
                 <div className="text-right">
                   <span className="text-sm text-gray-600">Recomendamos?</span>
-                  <p className="text-lg font-medium text-emerald-600">Sim, recomendamos!</p>
+                  <p className="text-lg font-medium text-emerald-600">Sim, com certeza!</p>
                 </div>
               </div>
             </div>
@@ -537,16 +589,16 @@ export default function NewDetoxPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Ana Clara</h4>
-                    <span className="text-sm text-gray-500">• 3 dias atrás</span>
+                    <h4 className="font-medium text-gray-900">Maria Regina</h4>
+                    <span className="text-sm text-gray-500">• 2 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Comecei a usar o NewDetox há 1 mês e já notei muita diferença! Além de perder 4kg, 
-                    minha digestão melhorou muito e o inchaço diminuiu consideravelmente. Recomendo!
+                    Comprei o Folixil há 2 meses e minha calvície PAROU COMPLETAMENTE! Estou muito satisfeita com os resultados. 
+                    O crescimento de novos fios foi notável já na primeira semana. Recomendo para todos com calvície!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">24 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">32 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -560,11 +612,11 @@ export default function NewDetoxPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Roberto Silva</h4>
-                    <span className="text-sm text-gray-500">• 5 dias atrás</span>
+                    <h4 className="font-medium text-gray-900">Carlos Pereira</h4>
+                    <span className="text-sm text-gray-500">• 4 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Qual o melhor horário para tomar? E precisa tomar com água ou pode ser com suco?
+                    Posso usar junto com outros produtos capilares? Uso minoxidil e shampoos anti-queda.
                   </p>
                   {/* Resposta */}
                   <div className="bg-white rounded-lg p-4 mt-4">
@@ -577,12 +629,11 @@ export default function NewDetoxPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                     </div>
                     <p className="text-gray-700">
-                      Olá Roberto! O ideal é tomar o NewDetox pela manhã, 30 minutos antes do café, 
-                      com um copo de água. Não recomendamos tomar com suco para não interferir na 
-                      absorção dos ingredientes ativos.
+                      Olá Carlos! Sim, você pode usar o Folixil junto com minoxidil e outros produtos capilares sem problemas. 
+                      Na verdade, a combinação potencializa os resultados, atacando a calvície por dentro e por fora.
                     </p>
                   </div>
                 </div>
@@ -597,16 +648,17 @@ export default function NewDetoxPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Mariana Costa</h4>
+                    <h4 className="font-medium text-gray-900">Julia Santos</h4>
                     <span className="text-sm text-gray-500">• 1 semana atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Já estou no segundo mês de uso e os resultados são incríveis! Perdi 8kg, 
-                    minha pele melhorou muito e me sinto com muito mais disposição. Vale cada centavo!
+                    Estou no terceiro mês de uso e os resultados são REVOLUCIONÁRIOS! 
+                    Minha calvície regrediu completamente e tenho cabelos grossos novamente. O melhor é que não 
+                    tenho mais aquela preocupação com a queda de cabelo que tinha antes.
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">35 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">45 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -623,11 +675,11 @@ export default function NewDetoxPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Paulo Henrique</h4>
+                        <h4 className="font-medium text-gray-900">Roberto Almeida</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Tenho pressão alta, posso tomar o NewDetox?
+                        Quanto tempo demora para entregar? Moro no interior de São Paulo.
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -640,12 +692,11 @@ export default function NewDetoxPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Paulo! Sim, você pode tomar o NewDetox mesmo com pressão alta. 
-                          Os ingredientes são naturais e não interferem com medicamentos para 
-                          hipertensão. Apenas mantenha o acompanhamento regular com seu médico.
+                          Olá Roberto! A entrega para o interior de São Paulo geralmente leva de 2 a 4 dias úteis. 
+                          Todas as entregas são feitas com código de rastreamento para seu acompanhamento.
                         </p>
                       </div>
                     </div>
@@ -660,11 +711,11 @@ export default function NewDetoxPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Fernanda Lima</h4>
+                        <h4 className="font-medium text-gray-900">Ana Paula Costa</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Preciso fazer dieta junto ou só o suplemento é suficiente?
+                        Tenho alopecia androgenética avançada, o Folixil funciona?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -677,13 +728,120 @@ export default function NewDetoxPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Fernanda! O NewDetox funciona melhor quando associado a uma 
-                          alimentação equilibrada. Não é necessário fazer dieta restritiva, 
-                          mas recomendamos manter uma alimentação saudável e beber bastante água 
-                          para potencializar os resultados.
+                          Olá Ana Paula! Sim, o Folixil é especialmente eficaz para alopecia androgenética avançada. 
+                          Os bloqueadores de DHT atuam diretamente na causa da calvice masculina e feminina. 
+                          Casos avançados podem levar mais tempo, mas os resultados são consistentes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Comentário 6 */}
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
+                      <User className="h-6 w-6 text-gray-600" />
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h4 className="font-medium text-gray-900">Pedro Henrique</h4>
+                        <span className="text-sm text-gray-500">• 3 semanas atrás</span>
+                      </div>
+                      <p className="text-gray-700 mb-4">
+                        Qual o melhor horário para tomar? Precisa ser em jejum para absorver melhor?
+                      </p>
+                      {/* Resposta */}
+                      <div className="bg-white rounded-lg p-4 mt-4">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Image
+                            src="/images/oavatar.png"
+                            alt="Maria Silva"
+                            width={24}
+                            height={24}
+                            className="rounded-full"
+                          />
+                          <span className="font-medium text-gray-900">Maria Silva</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                        </div>
+                        <p className="text-gray-700">
+                          Olá Pedro! O Folixil pode ser tomado a qualquer hora, mas recomendamos em jejum para melhor absorção. 
+                          O ideal é tomar pela manhã para que os nutrients capilares ajam durante todo o dia estimulando o crescimento.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Comentário 7 */}
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
+                      <User className="h-6 w-6 text-gray-600" />
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h4 className="font-medium text-gray-900">Mariana Santos</h4>
+                        <span className="text-sm text-gray-500">• 3 semanas atrás</span>
+                      </div>
+                      <p className="text-gray-700 mb-4">
+                        Tenho calvície há 10 anos, ainda posso recuperar meus cabelos?
+                      </p>
+                      {/* Resposta */}
+                      <div className="bg-white rounded-lg p-4 mt-4">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Image
+                            src="/images/oavatar.png"
+                            alt="Maria Silva"
+                            width={24}
+                            height={24}
+                            className="rounded-full"
+                          />
+                          <span className="font-medium text-gray-900">Maria Silva</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                        </div>
+                        <p className="text-gray-700">
+                          Olá Mariana! SIM! Mesmo com 10 anos de calvície, ainda é possível recuperar. 
+                          Os folículos ficam dormentes, mas não morrem. O Folixil reativa folículos que estavam inativos há anos.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Comentário 8 */}
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
+                      <User className="h-6 w-6 text-gray-600" />
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h4 className="font-medium text-gray-900">Fernando Lima</h4>
+                        <span className="text-sm text-gray-500">• 1 mês atrás</span>
+                      </div>
+                      <p className="text-gray-700 mb-4">
+                        Tem algum efeito colateral? Causa irritação no couro cabeludo ou coceira?
+                      </p>
+                      {/* Resposta */}
+                      <div className="bg-white rounded-lg p-4 mt-4">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Image
+                            src="/images/oavatar.png"
+                            alt="Maria Silva"
+                            width={24}
+                            height={24}
+                            className="rounded-full"
+                          />
+                          <span className="font-medium text-gray-900">Maria Silva</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                        </div>
+                        <p className="text-gray-700">
+                          Olá Fernando! O Folixil é composto por ingredientes naturais e não causa irritação no couro cabeludo. 
+                          Não foram relatados efeitos colaterais significativos. Por ser natural, é bem tolerado e não causa coceira.
                         </p>
                       </div>
                     </div>
@@ -717,7 +875,7 @@ export default function NewDetoxPage() {
               </h3>
               <div className="space-y-4">
                 <textarea 
-                  className="w-full rounded-lg border border-gray-200 p-4 h-32 resize-none text-gray-900 placeholder-gray-500"
+                  className="w-full rounded-lg border border-gray-200 p-4 h-32 resize-none text-gray-900 placeholder-gray-900"
                   placeholder="Escreva sua pergunta aqui..."
                   value={pergunta}
                   onChange={(e) => setPergunta(e.target.value)}

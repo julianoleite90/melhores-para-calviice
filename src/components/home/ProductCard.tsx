@@ -10,8 +10,8 @@ export function ProductCard() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/phyna-400.png"
-              alt="Phynamax: Líder absoluto em emagrecimento natural"
+              src="/images/biocapilar.png"
+              alt="Biocapilar: Líder absoluto em crescimento capilar natural"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">1º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Phynamax</h3>
+                <h3 className="text-xl font-bold text-gray-900">Biocapilar</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Líder absoluto em emagrecimento natural
+                Líder absoluto em crescimento capilar natural
               </p>
             </div>
 
@@ -49,13 +49,13 @@ export function ProductCard() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Phynamax</span> revoluciona o mercado de emagrecimento com sua fórmula avançada e resultados excepcionais comprovados por milhares de usuários.
+                O <span className="text-gray-900 font-medium">Biocapilar</span> revoluciona o mercado de tratamento capilar com sua fórmula avançada e resultados excepcionais comprovados por milhares de usuários.
               </p>
               <p className="text-gray-700">
-                Sua composição premium combina <span className="text-gray-900 font-medium">farinha de linhaça bioativa</span>, <span className="text-gray-900 font-medium">cactinea concentrada</span> e <span className="text-gray-900 font-medium">complexo vitamínico otimizado</span> para máxima eficácia na queima de gordura e controle de apetite.
+                Sua composição premium combina <span className="text-gray-900 font-medium">biotina concentrada</span>, <span className="text-gray-900 font-medium">saw palmetto</span> e <span className="text-gray-900 font-medium">complexo vitamínico capilar</span> para máxima eficácia no crescimento dos fios e fortalecimento capilar.
               </p>
               <p className="text-gray-900 font-medium">
-                Impressionantes 96% dos usuários reportam perda significativa de peso e aumento da energia em apenas 4 semanas.
+                Impressionantes 96% dos usuários reportam crescimento significativo de novos fios e fortalecimento capilar em apenas 4 semanas.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard() {
                   <h4 className="font-medium text-gray-900">Resultados</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Perda média de <span className="font-medium">6-8kg</span> em 30 dias
+                  Crescimento médio de <span className="font-medium">novos fios</span> em 30 dias
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Adultos que buscam resultados rápidos e seguros
+                  Adultos com calvície ou queda de cabelo
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Gestantes, lactantes ou menores de 18 anos
+                  Gestantes, lactantes ou alérgicos aos componentes
                 </p>
               </div>
             </div>
@@ -100,10 +100,10 @@ export function ProductCard() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fórmula exclusiva com tecnologia de liberação sustentada que maximiza a absorção dos princípios ativos.
+                  Fórmula exclusiva com tecnologia de liberação sustentada que maximiza a absorção dos nutrients capilares.
                 </p>
                 <p>
-                  Única combinação que atua simultaneamente no metabolismo, saciedade e queima de gordura localizada.
+                  Única combinação que atua simultaneamente no couro cabeludo, folículos e crescimento de novos fios.
                 </p>
               </div>
             </div>
@@ -111,14 +111,14 @@ export function ProductCard() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://www.phynamaxoficial.com/phynamax-2/"
+                href="https://www.biocapilaroficial.com.br/biocapilar-02"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/phynamax"
+                href="/biocapilar"
                 variant="secondary"
                 className="flex-1"
               >

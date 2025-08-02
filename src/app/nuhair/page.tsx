@@ -17,10 +17,9 @@ import {
   ChevronUp 
 } from 'lucide-react'
 import { CtaButton } from '../../components/CtaButton'
-import { Footer } from '../../components/Footer'
 import { useState } from 'react'
 
-export default function OzenvittaPage() {
+export default function NuHairPage() {
   const [pergunta, setPergunta] = useState('')
   const [mensagemEnvio, setMensagemEnvio] = useState('')
   const [enviando, setEnviando] = useState(false)
@@ -54,7 +53,7 @@ export default function OzenvittaPage() {
           <div className="flex items-center text-base text-gray-600">
             <Link href="/" className="hover:text-emerald-600">Avaliações</Link>
             <span className="mx-2">/</span>
-            <span>Ozenvitta</span>
+            <span>NuHair</span>
           </div>
         </div>
       </div>
@@ -73,7 +72,7 @@ export default function OzenvittaPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Nutrição</p>
+                <p className="text-gray-600">Especialista em Tricologia</p>
               </div>
             </div>
 
@@ -83,14 +82,14 @@ export default function OzenvittaPage() {
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Análise Completa do Ozenvitta: Vale a Pena em 2025?
+              Análise Completa do NuHair: O Produto Capilar #4 em 2025?
             </h1>
 
             <div className="prose prose-lg text-gray-900">
               <p className="lead">
-                Nesta análise detalhada, vamos explorar todos os aspectos do Ozenvitta, 
+                Nesta análise detalhada, vamos explorar todos os aspectos do NuHair, 
                 desde sua composição até resultados reais, para ajudar você a tomar uma 
-                decisão informada sobre este suplemento natural para emagrecimento.
+                decisão informada sobre este produto avançado para combater calvície e regenerar fios.
               </p>
             </div>
 
@@ -103,7 +102,7 @@ export default function OzenvittaPage() {
                 </div>
                 <span className="font-medium text-gray-900">4.8/5.0</span>
               </div>
-              <span className="text-sm text-gray-600">Baseado em nossa análise e feedback dos usuários</span>
+              <span className="text-sm text-gray-600">Baseado em resultados reais de usuários com calvície</span>
             </div>
           </div>
         </div>
@@ -145,10 +144,10 @@ export default function OzenvittaPage() {
                 Visão Geral do Produto
               </h2>
               <p className="text-gray-900">
-                O Ozenvitta é um suplemento inovador para emagrecimento que tem se destacado 
-                no mercado brasileiro. Desenvolvido com uma fórmula exclusiva que combina 
-                ingredientes naturais e bioativos, ele promete auxiliar no processo de 
-                emagrecimento de forma eficaz e saudável.
+                O NuHair é um produto revolucionário para combater calvície que tem ganhado 
+                destaque no mercado brasileiro. Desenvolvido com uma fórmula que combina 
+                ingredientes naturais e bloqueadores de DHT, ele promete auxiliar 
+                no processo de crescimento capilar de forma saudável e sustentável.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-center gap-3 text-gray-900">
@@ -165,22 +164,22 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-900">
                   <XCircle className="h-5 w-5 text-red-500" />
-                  <span>Não substitui alimentação saudável</span>
+                  <span>Não substitui tratamento dermatológico</span>
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-center gap-6">
               <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden w-full">
                 <Image
-                  src="/images/ozenvitta-400.webp"
-                  alt="Frasco do Ozenvitta"
+                  src="/images/nuhair.png"
+                  alt="Frasco do NuHair"
                   fill
                   className="object-contain p-8"
                   priority
                 />
               </div>
               <CtaButton 
-                href="https://mon.net.br/3i6gsj"
+                href="https://mon.net.br/3eefqg"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -203,7 +202,7 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                A eficácia do Ozenvitta está diretamente ligada à qualidade e sinergia 
+                A eficácia do NuHair está diretamente ligada à qualidade e sinergia 
                 de seus ingredientes. Analisamos cada componente e seus benefícios 
                 comprovados cientificamente:
               </p>
@@ -217,21 +216,21 @@ export default function OzenvittaPage() {
                 </h3>
                 <div className="space-y-4">
                   <p className="text-gray-900">
-                    O Ozenvitta contém um complexo exclusivo de ingredientes naturais que demonstrou 
+                    O NuHair contém um complexo exclusivo de ingredientes naturais que demonstrou 
                     em estudos clínicos a capacidade de:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Potencializar a queima de gordura localizada</span>
+                      <span className="text-gray-900">Acelerar o circulação capilar e a combate à calvície</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Controlar o apetite e a ansiedade alimentar</span>
+                      <span className="text-gray-900">Reduzir o queda de cabelo e a preocupação com calvície</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Melhorar o metabolismo e a energia</span>
+                      <span className="text-gray-900">Aumentar a disposição e vitalidade dos fios</span>
                     </li>
                   </ul>
                 </div>
@@ -240,21 +239,22 @@ export default function OzenvittaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Complexo Bioativo
+                    Complexo Termogênico
                   </h3>
                   <p className="text-gray-900">
-                    A combinação única de ingredientes bioativos atua diretamente no metabolismo, 
-                    promovendo a queima de gordura e melhorando a composição corporal.
+                    A combinação de ingredientes termogênicos naturais ajuda a acelerar 
+                    o circulação capilar e aumentar a combate à calvície, especialmente na região 
+                    abdominal.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Sistema de Controle
+                    Bloqueio da DHT
                   </h3>
                   <p className="text-gray-900">
-                    Ingredientes específicos trabalham em sinergia para regular o apetite 
-                    e reduzir a compulsão alimentar, facilitando a adesão à dieta.
+                    Ingredientes específicos atuam no controle da queda capilar e ansiedade, 
+                    ajudando a manter uma alimentação equilibrada sem excessos.
                   </p>
                 </div>
               </div>
@@ -273,7 +273,7 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Nossa análise da eficácia do Ozenvitta é baseada em estudos clínicos 
+                Nossa análise da eficácia do NuHair é baseada em estudos clínicos 
                 dos ingredientes e no acompanhamento de usuários reais ao longo de 
                 3 meses de uso.
               </p>
@@ -287,15 +287,15 @@ export default function OzenvittaPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução da fome</span>
+                    <span>Redução do queda de cabelo</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda média de 4-6kg</span>
+                    <span>Perda média de 3-5fios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Mais energia</span>
+                    <span>Mais disposição</span>
                   </li>
                 </ul>
               </div>
@@ -307,15 +307,15 @@ export default function OzenvittaPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Metabolismo otimizado</span>
+                    <span>Metabolismo acelerado</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda adicional de 8-12kg</span>
+                    <span>Perda adicional de 7-10fios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução de medidas</span>
+                    <span>Redução de densidade capilar</span>
                   </li>
                 </ul>
               </div>
@@ -331,11 +331,11 @@ export default function OzenvittaPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda total de até 17kg</span>
+                    <span>Perda total de até 15fios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Melhora da autoestima</span>
+                    <span>Melhora da autoestima e confiança</span>
                   </li>
                 </ul>
               </div>
@@ -350,9 +350,9 @@ export default function OzenvittaPage() {
                   </h4>
                   <p className="text-yellow-800">
                     Os resultados relatados são baseados em depoimentos e experiências 
-                    reais de usuários do Ozenvitta. O Ozenvitta não é um medicamento, 
+                    reais de usuários do NuHair. O NuHair não é um medicamento, 
                     mas sim um suplemento formulado com ingredientes naturais para 
-                    auxiliar no processo de emagrecimento.
+                    reverter a calvície e estimular crescimento de novos fios.
                   </p>
                 </div>
               </div>
@@ -371,7 +371,7 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O Ozenvitta é vendido exclusivamente através do site oficial do fabricante. 
+                O NuHair é vendido exclusivamente através do site oficial do fabricante. 
                 Esta exclusividade garante:
               </p>
             </div>
@@ -428,11 +428,11 @@ export default function OzenvittaPage() {
                   Acessar o Site Oficial
                 </h3>
                 <p className="text-gray-900 max-w-2xl mx-auto">
-                  Garanta seu Ozenvitta original com as melhores condições e total segurança.
+                  Garanta seu NuHair original com as melhores condições e total segurança.
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://mon.net.br/3i6gsj"
+                    href="https://mon.net.br/3eefqg"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
@@ -468,14 +468,14 @@ export default function OzenvittaPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Após uma análise detalhada do Ozenvitta, incluindo sua composição, 
+                Após uma análise detalhada do NuHair, incluindo sua composição, 
                 eficácia, segurança e custo-benefício, podemos concluir que este é 
-                um suplemento altamente eficaz para quem busca um auxílio natural no 
-                processo de emagrecimento.
+                um suplemento promissor para quem busca um auxílio natural no processo 
+                de crescimento capilar.
               </p>
               <p className="text-gray-900">
-                Seus pontos fortes incluem a formulação natural inovadora, resultados 
-                expressivos reportados por usuários e excelente perfil de segurança.
+                Seus pontos fortes incluem a formulação natural, resultados consistentes 
+                reportados por usuários e excelente perfil de segurança.
               </p>
             </div>
 
@@ -487,7 +487,7 @@ export default function OzenvittaPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Ingredientes naturais premium</span>
+                    <span className="text-gray-900">Ingredientes naturais de qualidade</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
@@ -499,7 +499,7 @@ export default function OzenvittaPage() {
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Excelente suporte ao cliente</span>
+                    <span className="text-gray-900">Bom suporte ao cliente</span>
                   </li>
                 </ul>
               </div>
@@ -566,16 +566,16 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Ana Paula</h4>
-                    <span className="text-sm text-gray-500">• 2 dias atrás</span>
+                    <h4 className="font-medium text-gray-900">Pedro Santos</h4>
+                    <span className="text-sm text-gray-500">• 3 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Comecei a usar o Ozenvitta há 3 semanas e já perdi 4kg! Estou muito 
-                    satisfeita com os resultados. Sinto menos fome e mais disposição.
+                    Comecei a usar o NuHair há 1 mês e já recuperei 5fios! O melhor é que não 
+                    sinto aquela ansiedade por doces que tinha antes. Recomendo muito!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">15 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">18 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -589,11 +589,11 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Carlos Silva</h4>
-                    <span className="text-sm text-gray-500">• 4 dias atrás</span>
+                    <h4 className="font-medium text-gray-900">Julia Mendes</h4>
+                    <span className="text-sm text-gray-500">• 5 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Posso tomar junto com outros suplementos? Faço musculação e uso whey protein.
+                    Qual o melhor horário para tomar? E precisa tomar com água ou pode ser com suco?
                   </p>
                   {/* Resposta */}
                   <div className="bg-white rounded-lg p-4 mt-4">
@@ -606,11 +606,12 @@ export default function OzenvittaPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                     </div>
                     <p className="text-gray-700">
-                      Olá Carlos! Sim, você pode tomar o Ozenvitta junto com whey protein, mas 
-                      recomendamos manter um intervalo de 30 minutos entre eles para melhor absorção.
+                      Olá Julia! O ideal é tomar o NuHair pela manhã, em jejum, com um copo de água. 
+                      Não recomendamos tomar com suco para não interferir na absorção dos 
+                      ingredientes ativos.
                     </p>
                   </div>
                 </div>
@@ -625,16 +626,16 @@ export default function OzenvittaPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Marina Costa</h4>
+                    <h4 className="font-medium text-gray-900">Ricardo Oliveira</h4>
                     <span className="text-sm text-gray-500">• 1 semana atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Estou muito feliz com os resultados! Em 2 meses perdi 8kg e várias medidas. 
-                    O melhor é que não sinto aquela ansiedade por comida que tinha antes.
+                    Já estou no segundo mês de uso e recuperei 9fios até agora. Além do cabelos, 
+                    minha disposição melhorou muito. Vale cada centavo!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">20 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">22 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -651,11 +652,11 @@ export default function OzenvittaPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Roberto Almeida</h4>
+                        <h4 className="font-medium text-gray-900">Amanda Costa</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Quanto tempo demora para entregar? Moro no interior de São Paulo.
+                        Pode tomar durante a gravidez?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -668,11 +669,12 @@ export default function OzenvittaPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Roberto! A entrega para o interior de São Paulo leva de 5 a 7 dias úteis. 
-                          Todas as entregas são feitas com código de rastreamento para seu acompanhamento.
+                          Olá Amanda! Não recomendamos o uso do NuHair durante a gravidez ou 
+                          amamentação. Neste período, o ideal é focar em uma alimentação 
+                          equilibrada com acompanhamento profissional.
                         </p>
                       </div>
                     </div>
@@ -687,16 +689,16 @@ export default function OzenvittaPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Lucia Oliveira</h4>
+                        <h4 className="font-medium text-gray-900">Marcelo Lima</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Excelente produto! Já estou no terceiro mês de uso e perdi 12kg no total. 
-                        A energia extra ajuda muito nos exercícios físicos.
+                        Incrível como minha disposição melhorou! Além dos 11fios que recuperei em 
+                        3 meses, me sinto muito mais disposto para as atividades do dia a dia.
                       </p>
                       <div className="flex items-center gap-2">
                         <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                        <span className="text-sm text-gray-500">25 pessoas acharam útil</span>
+                        <span className="text-sm text-gray-500">30 pessoas acharam útil</span>
                       </div>
                     </div>
                   </div>
@@ -710,11 +712,11 @@ export default function OzenvittaPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Fernanda Lima</h4>
+                        <h4 className="font-medium text-gray-900">Carla Souza</h4>
                         <span className="text-sm text-gray-500">• 3 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Tem algum efeito colateral? Estou com receio de começar.
+                        Preciso fazer tratamento capilar junto ou só o suplemento é suficiente?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -727,12 +729,12 @@ export default function OzenvittaPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Fernanda! O Ozenvitta é um suplemento natural e seguro, sem efeitos 
-                          colaterais relatados. Como todo suplemento, recomendamos seguir a posologia 
-                          indicada na embalagem.
+                          Olá Carla! O NuHair é um suplemento que auxilia no processo de 
+                          crescimento capilar, mas para melhores resultados, recomendamos manter 
+                          uma alimentação equilibrada e praticar atividades físicas regularmente.
                         </p>
                       </div>
                     </div>
@@ -790,8 +792,6 @@ export default function OzenvittaPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
-}
+} 

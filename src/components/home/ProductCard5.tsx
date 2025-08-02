@@ -10,8 +10,8 @@ export function ProductCard5() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/newdetox-400.webp"
-              alt="New Detox: Especialista em desintoxicação"
+              src="/images/Imecap.png"
+              alt="Imecap: Especialista em nutrição capilar"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard5() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">5º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">New Detox</h3>
+                <h3 className="text-xl font-bold text-gray-900">Imecap</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Especialista em desintoxicação
+                Especialista em nutrição capilar
               </p>
             </div>
 
@@ -49,13 +49,13 @@ export function ProductCard5() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">New Detox</span> é elogiado por reduzir inchaço em 7 dias, com 70% dos usuários relatando maior leveza e melhora na digestão.
+                O <span className="text-gray-900 font-medium">Imecap</span> é elogiado por nutrir o couro cabeludo em 7 dias, com 70% dos usuários relatando maior densidade e melhora na saúde capilar.
               </p>
               <p className="text-gray-700">
-                A fórmula foca na eliminação de toxinas e retenção de líquidos. Ingredientes como <span className="text-gray-900 font-medium">hibisco e chlorella</span> promovem ação diurética e desintoxicante, enquanto o <span className="text-gray-900 font-medium">psyllium</span> melhora a função intestinal.
+                A fórmula foca na nutrição dos folículos e fortalecimento capilar. Ingredientes como <span className="text-gray-900 font-medium">vitamina E e óleo de argan</span> promovem hidratação e nutrição profunda, enquanto o <span className="text-gray-900 font-medium">colágeno</span> melhora a estrutura dos fios.
               </p>
               <p className="text-gray-900 font-medium">
-                70% dos usuários notam menos inchaço em 7 dias, com significativa melhora na digestão e bem-estar geral.
+                70% dos usuários notam cabelos mais nutridos em 7 dias, com significativa melhora na textura e brilho capilar.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard5() {
                   <h4 className="font-medium text-gray-900">Composição</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Chlorella (desintoxicação), Hibisco (diurético), Psyllium (fibra), Gengibre (anti-inflamatório)
+                  Vitamina E (antioxidante), Óleo de Argan (hidratação), Colágeno (estrutura), Queratina (fortalecimento)
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard5() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Retenção de líquidos ou má digestão
+                  Cabelos ressecados ou danificados
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard5() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Evitar em caso de alergia a algas ou pressão baixa
+                  Evitar em caso de alergia aos componentes
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export function ProductCard5() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fórmula especializada em desintoxicação e redução de inchaço.
+                  Fórmula especializada em nutrição e hidratação capilar profunda.
                 </p>
               </div>
             </div>
@@ -108,14 +108,14 @@ export function ProductCard5() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://mon.net.br/3eefce"
+                href="/#ranking"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/newdetox"
+                href="/#ranking"
                 variant="secondary"
                 className="flex-1"
               >

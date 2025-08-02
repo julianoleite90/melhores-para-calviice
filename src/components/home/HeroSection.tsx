@@ -29,17 +29,17 @@ export function HeroSection() {
 
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  Os 5 Melhores Remédios para Emagrecer em 2025 – Análise Completa e Imparcial
+                  Os 5 Melhores Remédios para Calvície em 2025 – Análise Completa e Imparcial
                 </h1>
 
                 <p className="text-xl text-gray-700">
-                  (Análise Exclusiva)
+                  Aprovados pela anvisa
                 </p>
               </div>
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                <span className="text-emerald-700 font-medium">Você já tentou de tudo para emagrecer e nada funcionou? Não se culpe. A verdade é que 95% das dietas falham — e isso não é por falta de esforço seu.</span>
+                <span className="text-emerald-700 font-medium">Você já tentou de tudo para combater a queda de cabelo, a calvície ou recuperar a densidade dos fios, mas nada funcionou? Não se desespere. A verdade é que 95% dos tratamentos convencionais falham — e isso não é por falta de esforço seu.</span>
                 </p>
               </div>
 
@@ -48,8 +48,8 @@ export function HeroSection() {
                 <div className="relative aspect-square bg-white rounded-3xl overflow-hidden shadow-lg">
                   <div className="absolute inset-4 bg-emerald-50/50 rounded-2xl overflow-hidden">
                     <Image
-                      src="/images/img-hero-mob.png"
-                      alt="Balança com pés femininos e elementos decorativos"
+                      src="/images/img-hero-mobile-1.png"
+                      alt="Produtos para tratamento capilar e elementos decorativos"
                       fill
                       className="object-cover"
                       priority
@@ -69,7 +69,7 @@ export function HeroSection() {
                         <div>
                           <div className="text-sm text-gray-500">Por</div>
                           <div className="text-lg font-medium text-gray-900">Maria Silva</div>
-                          <div className="text-sm text-emerald-600">Especialista em emagrecimento</div>
+                          <div className="text-sm text-emerald-600">Especialista em tricologia</div>
                         </div>
                       </div>
                     </div>
@@ -79,11 +79,11 @@ export function HeroSection() {
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                Nesta página, você não vai encontrar apenas uma lista comum de remédios. Aqui, apresentamos uma <span className="text-emerald-700 font-medium">análise profunda e detalhada dos 5 tratamentos para emagrecer mais potentes e promissores de 2025</span> — selecionados com rigor científico, baseados em pesquisas clínicas recentes, opiniões médicas especializadas e relatos reais de quem já obteve resultados transformadores.
+                Nesta página, você não vai encontrar apenas uma lista comum de remédios. Aqui, apresentamos uma <span className="text-emerald-700 font-medium">análise profunda e detalhada dos 5 tratamentos capilares mais potentes e promissores de 2025</span> — selecionados com rigor científico, baseados em pesquisas clínicas recentes, opiniões de especialistas em tricologia e relatos reais de quem já obteve resultados transformadores, como o preenchimento de falhas e o crescimento de novos fios.
                 </p>
 
                 <p>
-                Prepare-se para descobrir qual desses medicamentos inovadores pode ser o seu aliado ideal para conquistar uma perda de peso consistente, saudável e duradoura.
+                Prepare-se para descobrir qual desses produtos inovadores pode ser o seu aliado ideal para conquistar cabelos saudáveis, densos e cheios de vida de forma consistente e duradoura.
                 </p>
 
                 <div className="pt-4">
@@ -104,7 +104,7 @@ export function HeroSection() {
                     }}
                     className="w-full lg:w-auto px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-0.5"
                   >
-                    Conheça os 5 Melhores Remédios para Emagrecer
+                    Conheça os 5 Melhores Remédios para Calvície
                   </button>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export function HeroSection() {
                     <div>
                       <div className="text-sm text-gray-500">Por</div>
                       <div className="text-lg font-medium text-gray-900">Maria Silva</div>
-                      <div className="text-sm text-emerald-600">Especialista em emagrecimento</div>
+                      <div className="text-sm text-emerald-600">Especialista em tricologia</div>
                     </div>
                   </div>
                 </div>
@@ -151,17 +151,17 @@ export function HeroSection() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="col-span-1 lg:col-span-2 space-y-4 lg:space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">
-              Por que escolher o remédio certo para emagrecer pode transformar a sua vida?
+              Por que escolher o remédio certo para calvicie pode transformar a sua vida?
               </h2>
               <div className="prose prose-lg text-gray-700">
                 <p>
-                Emagrecer vai muito além da aparência: é uma questão de <span className="text-emerald-700 font-medium">saúde, disposição e qualidade de vida</span>. Se você já tentou inúmeras dietas e exercícios e sentiu que seu corpo simplesmente não responde, saiba que essa resistência é mais comum do que você imagina — e não é culpa sua.
+                Tratar a calvície vai muito além da aparência: é uma questão de <span className="text-emerald-700 font-medium">autoestima, confiança e qualidade de vida</span>. Se você já tentou inúmeros tratamentos e produtos e sentiu que seu couro cabeludo simplesmente não responde, saiba que essa resistência é mais comum do que você imagina — e não é culpa sua.
                 </p>
 
                 <div className="my-6"></div>
 
                 <p>
-                A boa notícia é que, graças aos avanços da ciência, hoje existem medicamentos modernos que atuam diretamente nos <span className="text-emerald-700 font-medium">mecanismos biológicos que controlam o apetite, a saciedade e o armazenamento de gordura</span>, oferecendo um suporte real para quem enfrenta dificuldades para perder peso.
+                A boa notícia é que, graças aos avanços da ciência, hoje existem medicamentos modernos que atuam diretamente nos <span className="text-emerald-700 font-medium">mecanismos biológicos que controlam o crescimento capilar, a circulação sanguínea no couro cabeludo e a saúde dos folículos</span>, oferecendo um suporte real para quem enfrenta dificuldades com a queda de cabelo e calvície.
                 </p>
               </div>
             </div>
@@ -208,7 +208,7 @@ export function HeroSection() {
           {/* Cabeçalho do Ranking */}
           <div className="py-12 text-center">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Ranking dos 5 Remédios para Emagrecer Mais Eficazes e Seguros em 2025
+              Ranking dos 5 Remédios para Calvície Mais Eficazes e Seguros em 2025
             </h2>
                           <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
                 Selecionamos com rigor os medicamentos que apresentam os melhores resultados comprovados em estudos clínicos recentes, combinando eficácia e segurança. Esta lista é baseada não apenas em dados científicos, mas também na satisfação real dos usuários que já experimentaram esses tratamentos inovadores.
@@ -250,7 +250,7 @@ export function HeroSection() {
             <div className="space-y-8 text-lg lg:text-xl">
               <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
                 <p className="text-gray-700 leading-relaxed mb-8">
-                  Após uma análise minuciosa dos principais remédios para emagrecimento disponíveis em 2025, 
+                  Após uma análise minuciosa dos principais remédios para calvície disponíveis em 2025, 
                   consideramos diversos fatores cruciais como eficácia comprovada, segurança, relação custo-benefício, 
                   satisfação dos usuários e resultados científicos. Nossa avaliação levou em conta:
                 </p>
@@ -313,7 +313,7 @@ export function HeroSection() {
                   <p className="text-gray-700 leading-relaxed">
                     É importante ressaltar que cada produto tem seus pontos fortes específicos, atendendo a diferentes 
                     necessidades e objetivos. Recomendamos que você escolha o remédio que melhor se alinha com suas 
-                    metas pessoais de emagrecimento e condições individuais.
+                    metas pessoais de crescimento capilar e condições individuais.
                   </p>
                 </div>
               </div>
@@ -329,8 +329,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/phyna-400.png"
-                          alt="Phynamax"
+                          src="/images/biocapilar.png"
+                          alt="Biocapilar"
                           fill
                           className="object-contain"
                         />
@@ -340,12 +340,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-emerald-600">1°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Phynamax</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Biocapilar</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Líder absoluto com resultados excepcionais (6-8kg em 30 dias)</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Líder absoluto com resultados excepcionais (novos fios em 30 dias)</p>
                           </div>
                           <a
-                            href="https://www.phynamaxoficial.com/phynamax-2/"
+                            href="https://www.biocapilaroficial.com.br/biocapilar-02"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -361,8 +361,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/definamax-400.webp"
-                          alt="Definamax"
+                          src="/images/folixil.png"
+                          alt="Folixil"
                           fill
                           className="object-contain"
                         />
@@ -372,12 +372,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">2°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Definamax</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Folixil</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Melhor custo-benefício e resultados rápidos (5-7kg em 30 dias)</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Melhor custo-benefício e resultados rápidos (crescimento visível em 30 dias)</p>
                           </div>
                           <a
-                            href="https://www.definamaxoficial.com/produto"
+                            href="https://app.monetizze.com.br/r/BQS1857978"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -393,8 +393,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/ozenvitta-400.webp"
-                          alt="Ozenvitta"
+                          src="/images/rogaine.png"
+                          alt="Rogaine"
                           fill
                           className="object-contain"
                         />
@@ -404,12 +404,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">3°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Ozenvitta</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Rogaine</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Excelente para controle do apetite e saciedade prolongada</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Excelente para fortalecimento capilar e prevenção da queda</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3i6gsj"
+                            href="/#ranking"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -425,8 +425,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/sb2-400.webp"
-                          alt="Sb2 Turbo"
+                          src="/images/nuhair.png"
+                          alt="NuHair"
                           fill
                           className="object-contain"
                         />
@@ -436,12 +436,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">4°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Sb2 Turbo</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">NuHair</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em energia e queima de gordura localizada</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Destaque em vitalidade capilar e crescimento de novos fios</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3eefqg"
+                            href="/#ranking"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"
@@ -457,8 +457,8 @@ export function HeroSection() {
                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
                       <div className="w-16 h-16 md:w-20 md:h-20 relative flex-shrink-0">
                         <Image
-                          src="/images/newdetox-400.webp"
-                          alt="New Detox"
+                          src="/images/Imecap.png"
+                          alt="Imecap"
                           fill
                           className="object-contain"
                         />
@@ -468,12 +468,12 @@ export function HeroSection() {
                           <div className="text-center sm:text-left">
                             <div className="flex items-baseline justify-center sm:justify-start gap-3">
                               <span className="text-xl md:text-2xl font-bold text-gray-600">5°</span>
-                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">New Detox</h3>
+                              <h3 className="text-xl md:text-2xl font-bold text-gray-900">Imecap</h3>
                             </div>
-                            <p className="text-base md:text-lg text-gray-600 mt-1">Especialista em desintoxicação e redução de inchaço</p>
+                            <p className="text-base md:text-lg text-gray-600 mt-1">Especialista em nutrição e fortalecimento capilar</p>
                           </div>
                           <a
-                            href="https://mon.net.br/3eefce"
+                            href="/#ranking"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"

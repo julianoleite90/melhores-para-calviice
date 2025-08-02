@@ -10,8 +10,8 @@ export function ProductCard2() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/definamax-400.webp"
-              alt="Definamax: Melhor avaliado pelos usuários"
+              src="/images/folixil.png"
+              alt="Folixil: Melhor avaliado para crescimento capilar"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard2() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">2º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Definamax</h3>
+                <h3 className="text-xl font-bold text-gray-900">Folixil</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Escolhido por 9 a cada 10 pessoas que buscam remedio para emagrecer
+                Escolhido por 9 a cada 10 pessoas que buscam tratamento para calvície
               </p>
             </div>
 
@@ -49,13 +49,13 @@ export function ProductCard2() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Definamax</span> conquista o 2º lugar no ranking de 2025 como um dos melhores remédios naturais, comprovado por milhares de usuários satisfeitos.
+                O <span className="text-gray-900 font-medium">Folixil</span> conquista o 2º lugar no ranking de 2025 como um dos melhores tratamentos capilares naturais, comprovado por milhares de usuários satisfeitos.
               </p>
               <p className="text-gray-700">
-                Sua poderosa fórmula natural age em três frentes: promove <span className="text-gray-900 font-medium">saciedade duradoura</span>, <span className="text-gray-900 font-medium">acelera seu metabolismo</span> para queimar mais calorias e atua na <span className="text-gray-900 font-medium">redução da gordura localizada</span>.
+                Sua poderosa fórmula natural age em três frentes: promove <span className="text-gray-900 font-medium">fortalecimento dos folículos</span>, <span className="text-gray-900 font-medium">acelera o crescimento capilar</span> estimulando a circulação e atua na <span className="text-gray-900 font-medium">prevenção da queda dos fios</span>.
               </p>
               <p className="text-gray-900 font-medium">
-                Impressionantes 95% dos consumidores reportam total satisfação com os resultados, experimentando mais energia e menos inchaço.
+                Impressionantes 95% dos consumidores reportam total satisfação com os resultados, experimentando cabelos mais fortes e densidade aumentada.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard2() {
                   <h4 className="font-medium text-gray-900">Resultados</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Perda média de <span className="font-medium">5-7kg</span> em 30 dias
+                  Crescimento visível de <span className="font-medium">novos fios</span> em 30 dias
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard2() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Adultos buscando emagrecimento seguro e eficaz
+                  Adultos com adelgaçamento capilar ou calvície inicial
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard2() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Gestantes, lactantes ou hipertensos
+                  Gestantes, lactantes ou alérgicos aos componentes
                 </p>
               </div>
             </div>
@@ -100,10 +100,10 @@ export function ProductCard2() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fibras alimentares inteligentes que atuam como uma rede, capturando e eliminando as gorduras antes da absorção.
+                  Nutrients capilares inteligentes que atuam diretamente nos folículos, fortalecendo e estimulando o crescimento capilar.
                 </p>
                 <p>
-                  Tecnologia exclusiva que potencializa a capacidade natural das fibras em reduzir a absorção de gorduras em até 72%.
+                  Tecnologia exclusiva que potencializa a capacidade natural do couro cabeludo em gerar novos fios em até 72% mais rapidez.
                 </p>
               </div>
             </div>
@@ -111,14 +111,14 @@ export function ProductCard2() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://www.definamaxoficial.com/produto"
+                href="https://app.monetizze.com.br/r/BQS1857978"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/definamax"
+                href="/folixil"
                 variant="secondary"
                 className="flex-1"
               >

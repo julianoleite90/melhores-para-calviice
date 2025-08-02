@@ -10,8 +10,8 @@ export function ProductCard4() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/sb2-400.webp"
-              alt="Sb2 Turbo: Especialista em queima de gordura"
+              src="/images/nuhair.png"
+              alt="NuHair: Especialista em vitalidade capilar"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard4() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">4º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Sb2 Turbo</h3>
+                <h3 className="text-xl font-bold text-gray-900">NuHair</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Especialista em queima de gordura
+                Especialista em vitalidade capilar
               </p>
             </div>
 
@@ -49,13 +49,13 @@ export function ProductCard4() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Sb2 Turbo</span> é um poderoso suplemento natural para emagrecimento que se destaca por sua fórmula termogênica avançada.
+                O <span className="text-gray-900 font-medium">NuHair</span> é um poderoso suplemento natural capilar que se destaca por sua fórmula revitalizante avançada.
               </p>
               <p className="text-gray-700">
-                Desenvolvido especificamente para <span className="text-gray-900 font-medium">acelerar o metabolismo</span> e <span className="text-gray-900 font-medium">queimar gordura</span> de forma mais eficiente, especialmente na região abdominal.
+                Desenvolvido especificamente para <span className="text-gray-900 font-medium">combater a calvície</span> e <span className="text-gray-900 font-medium">regenerar folículos</span> de forma mais eficiente, especialmente nas entradas e topo da cabeça.
               </p>
               <p className="text-gray-900 font-medium">
-                Mais de 85% dos usuários relatam aumento significativo de energia e perda de peso nas primeiras semanas de uso.
+                Mais de 85% dos usuários relatam bloqueio total da queda capilar e crescimento de novos fios nas primeiras semanas de uso.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export function ProductCard4() {
                   <h4 className="font-medium text-gray-900">Resultados</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Perda média de <span className="font-medium">4-6kg</span> em 30 dias
+                  Crescimento de <span className="font-medium">novos fios</span> em 30 dias
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function ProductCard4() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Adultos que buscam acelerar o metabolismo
+                  Adultos com calvície androgenética
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function ProductCard4() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Gestantes, lactantes ou cardiopatas
+                  Menores de 18 anos
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export function ProductCard4() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Fórmula termogênica potente com foco em energia e queima de gordura.
+                  Fórmula anti-DHT potente com foco em regeneração capilar e bloqueio da calvície.
                 </p>
               </div>
             </div>
@@ -108,14 +108,14 @@ export function ProductCard4() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://mon.net.br/3eefqg"
+                href="/#ranking"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/sb2"
+                href="/#ranking"
                 variant="secondary"
                 className="flex-1"
               >

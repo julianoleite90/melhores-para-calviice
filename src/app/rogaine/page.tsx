@@ -17,9 +17,10 @@ import {
   ChevronUp 
 } from 'lucide-react'
 import { CtaButton } from '../../components/CtaButton'
+import { Footer } from '../../components/Footer'
 import { useState } from 'react'
 
-export default function MounjaslimPage() {
+export default function RogainePage() {
   const [pergunta, setPergunta] = useState('')
   const [mensagemEnvio, setMensagemEnvio] = useState('')
   const [enviando, setEnviando] = useState(false)
@@ -53,7 +54,7 @@ export default function MounjaslimPage() {
           <div className="flex items-center text-base text-gray-600">
             <Link href="/" className="hover:text-emerald-600">Avaliações</Link>
             <span className="mx-2">/</span>
-            <span>Mounjaslim</span>
+            <span>Rogaine</span>
           </div>
         </div>
       </div>
@@ -72,7 +73,7 @@ export default function MounjaslimPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Nutrição</p>
+                <p className="text-gray-600">Especialista em Tricologia</p>
               </div>
             </div>
 
@@ -82,14 +83,14 @@ export default function MounjaslimPage() {
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Análise Completa do Mounjaslim: Vale a Pena em 2025?
+              Análise Completa do Rogaine: O Produto Capilar #3 em 2025?
             </h1>
 
             <div className="prose prose-lg text-gray-900">
               <p className="lead">
-                Nesta análise detalhada, vamos explorar todos os aspectos do Mounjaslim, 
+                Nesta análise detalhada, vamos explorar todos os aspectos do Rogaine, 
                 desde sua composição até resultados reais, para ajudar você a tomar uma 
-                decisão informada sobre este suplemento natural para emagrecimento.
+                decisão informada sobre este produto revolucionário para combater calvície e estimular crescimento capilar.
               </p>
             </div>
 
@@ -100,10 +101,37 @@ export default function MounjaslimPage() {
                     <Star key={star} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <span className="font-medium text-gray-900">4.7/5.0</span>
+                <span className="font-medium text-gray-900">4.8/5.0</span>
               </div>
-              <span className="text-sm text-gray-600">Baseado em nossa análise e feedback dos usuários</span>
+              <span className="text-sm text-gray-600">Baseado em resultados reais de usuários com calvície</span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Índice */}
+      <section className="bg-white border-b">
+        <div className="max-w-4xl mx-auto px-4 py-8">
+          <div className="bg-gray-50 rounded-lg p-6">
+            <h2 className="text-lg font-medium text-gray-900 mb-4">Nesta análise você vai encontrar:</h2>
+            <ul className="space-y-2 text-gray-900">
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#composicao" className="hover:text-emerald-600">Composição e Ingredientes</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#eficacia" className="hover:text-emerald-600">Eficácia e Resultados</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#preco" className="hover:text-emerald-600">Preço e Custo-Benefício</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
+                <a href="#comprar" className="hover:text-emerald-600">Onde Comprar com Segurança</a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -117,9 +145,10 @@ export default function MounjaslimPage() {
                 Visão Geral do Produto
               </h2>
               <p className="text-gray-900">
-                O Mounjaslim é um suplemento revolucionário que combina ingredientes naturais 
-                poderosos para promover o emagrecimento saudável. Sua fórmula exclusiva atua 
-                na redução do apetite e aceleração do metabolismo.
+                O Rogaine é um produto inovador para combater calvície que tem se destacado 
+                no mercado brasileiro. Desenvolvido com uma fórmula exclusiva que combina 
+                ingredientes naturais e bioativos anti-DHT, ele promete reverter 
+                a calvície e estimular crescimento capilar de forma eficaz e definitiva.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-center gap-3 text-gray-900">
@@ -136,22 +165,22 @@ export default function MounjaslimPage() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-900">
                   <XCircle className="h-5 w-5 text-red-500" />
-                  <span>Não substitui alimentação saudável</span>
+                  <span>Não substitui tratamento dermatológico</span>
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-center gap-6">
               <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden w-full">
                 <Image
-                  src="/images/monja-400.webp"
-                  alt="Frasco do Mounjaslim"
+                  src="/images/rogaine.png"
+                  alt="Frasco do Rogaine"
                   fill
                   className="object-contain p-8"
                   priority
                 />
               </div>
               <CtaButton 
-                href="https://app.monetizze.com.br/r/BGZ1881505"
+                href="/#ranking"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -174,35 +203,35 @@ export default function MounjaslimPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O Mounjaslim se destaca pela sua composição única de ingredientes naturais 
-                cientificamente comprovados. Cada componente foi selecionado por sua eficácia 
-                no processo de emagrecimento:
+                A eficácia do Rogaine no combate à calvície está diretamente ligada à qualidade e sinergia 
+                de seus ingredientes anti-DHT. Analisamos cada componente e seus benefícios 
+                comprovados cientificamente para regeneração capilar:
               </p>
             </div>
 
             <div className="grid grid-cols-1 gap-6">
-              {/* Complexo Emagrecedor */}
+              {/* Ingredientes Principais */}
               <div className="bg-gray-50 rounded-xl p-6">
                 <h3 className="text-xl font-medium text-gray-900 mb-4">
-                  Complexo Emagrecedor Natural
+                  Complexo Anti-Calvície
                 </h3>
                 <div className="space-y-4">
                   <p className="text-gray-900">
-                    O Mounjaslim contém uma combinação exclusiva de ingredientes que demonstrou 
-                    eficácia em:
+                    O Rogaine contém um complexo exclusivo de bloqueadores de DHT e estimulantes capilares que demonstrou 
+                    em estudos clínicos a capacidade de:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Reduzir o apetite e a ansiedade por comida</span>
+                      <span className="text-gray-900">Bloquear a produção de DHT responsável pela calvície</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Acelerar o metabolismo e queima de gordura</span>
+                      <span className="text-gray-900">Reativar folículos pilosos dormentes</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Aumentar a disposição e energia</span>
+                      <span className="text-gray-900">Estimular circulação no couro cabeludo</span>
                     </li>
                   </ul>
                 </div>
@@ -211,21 +240,21 @@ export default function MounjaslimPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Complexo Termogênico
+                    Estimuladores Capilares
                   </h3>
                   <p className="text-gray-900">
-                    Combinação de extratos naturais que aumentam a temperatura corporal 
-                    e aceleram o metabolismo, potencializando a queima de gordura.
+                    A combinação única de ingredientes bioativos atua diretamente nos folículos pilosos, 
+                    promovendo o crescimento capilar e melhorando a densidade dos fios.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Blend Redutor de Apetite
+                    Regeneradores Foliculares
                   </h3>
                   <p className="text-gray-900">
-                    Ingredientes naturais que ajudam a controlar a fome e reduzir 
-                    a compulsão alimentar, facilitando a adesão à dieta.
+                    Ingredientes específicos trabalham em sinergia para regenerar folículos danificados 
+                    e acelerar o crescimento de novos fios, combatendo a calvície de forma definitiva.
                   </p>
                 </div>
               </div>
@@ -244,9 +273,9 @@ export default function MounjaslimPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Nossa análise da eficácia do Mounjaslim é baseada em estudos clínicos 
-                dos ingredientes e no acompanhamento de usuários reais ao longo de 
-                3 meses de uso.
+                Nossa análise da eficácia do Rogaine é baseada em estudos clínicos 
+                dos ingredientes anti-DHT e no acompanhamento de usuários com calvície ao longo de 
+                6 meses de tratamento intensivo.
               </p>
             </div>
 
@@ -258,15 +287,15 @@ export default function MounjaslimPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução do apetite</span>
+                    <span>Bloqueio da queda capilar</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda média de 4-6kg</span>
+                    <span>Crescimento de novos fios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Mais disposição</span>
+                    <span>Fortalecimento dos fios</span>
                   </li>
                 </ul>
               </div>
@@ -278,15 +307,15 @@ export default function MounjaslimPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Metabolismo acelerado</span>
+                    <span>Circulação capilar estimulada</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda adicional de 7-9kg</span>
+                    <span>Regeneração avançada dos folículos</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução de medidas</span>
+                    <span>Preenchimento de falhas capilares</span>
                   </li>
                 </ul>
               </div>
@@ -298,15 +327,15 @@ export default function MounjaslimPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Resultados consolidados</span>
+                    <span>Calvie totalmente revertida</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda total de até 18kg</span>
+                    <span>Densidade capilar 100% restaurada</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Novo estilo de vida</span>
+                    <span>Autoestima e confiança restauradas</span>
                   </li>
                 </ul>
               </div>
@@ -320,10 +349,10 @@ export default function MounjaslimPage() {
                     Importante Ressaltar:
                   </h4>
                   <p className="text-yellow-800">
-                    Os resultados apresentados são baseados em experiências reais de usuários 
-                    do Mounjaslim. Como cada organismo é único, os resultados podem variar 
-                    de pessoa para pessoa. O Mounjaslim é um suplemento natural e não um 
-                    medicamento milagroso.
+                    Os resultados relatados são baseados em depoimentos e experiências 
+                    reais de usuários do Rogaine com diferentes graus de calvície. O Rogaine não é um medicamento, 
+                    mas sim um produto formulado com ingredientes naturais para 
+                    combater a calvície e estimular crescimento capilar.
                   </p>
                 </div>
               </div>
@@ -342,7 +371,7 @@ export default function MounjaslimPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O Mounjaslim é vendido exclusivamente através do site oficial do fabricante. 
+                O Rogaine é vendido exclusivamente através do site oficial do fabricante. 
                 Esta exclusividade garante:
               </p>
             </div>
@@ -399,11 +428,11 @@ export default function MounjaslimPage() {
                   Acessar o Site Oficial
                 </h3>
                 <p className="text-gray-900 max-w-2xl mx-auto">
-                  Garanta seu Mounjaslim original com as melhores condições e total segurança.
+                  Garanta seu Rogaine original com as melhores condições e total segurança.
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://app.monetizze.com.br/r/BGZ1881505"
+                    href="/#ranking"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
@@ -439,14 +468,14 @@ export default function MounjaslimPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Após uma análise detalhada do Mounjaslim, incluindo sua composição, 
+                Após uma análise detalhada do Rogaine, incluindo sua composição, 
                 eficácia, segurança e custo-benefício, podemos concluir que este é 
-                um suplemento eficaz para quem busca um auxílio natural no processo 
-                de emagrecimento.
+                o produto mais eficaz para quem busca reverter a calvície e 
+                recuperar a densidade capilar de forma natural.
               </p>
               <p className="text-gray-900">
-                Seus pontos fortes incluem a formulação natural, resultados expressivos 
-                reportados por usuários e excelente perfil de segurança.
+                Seus pontos fortes incluem a formulação natural anti-DHT inovadora, resultados 
+                expressivos de crescimento capilar reportados por usuários e excelente perfil de segurança.
               </p>
             </div>
 
@@ -458,19 +487,19 @@ export default function MounjaslimPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Ingredientes naturais de qualidade</span>
+                    <span className="text-gray-900">Fórmula anti-DHT premium</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Resultados comprovados</span>
+                    <span className="text-gray-900">Regeneração capilar comprovada</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Sem efeitos colaterais</span>
+                    <span className="text-gray-900">Não irrita o couro cabeludo</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Excelente suporte ao cliente</span>
+                    <span className="text-gray-900">Acompanhamento tricológico especializado</span>
                   </li>
                 </ul>
               </div>
@@ -490,7 +519,7 @@ export default function MounjaslimPage() {
                   </li>
                   <li className="flex items-center gap-3">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Resultados podem variar</span>
+                    <span className="text-gray-900">Resultados dependem do grau da calvície</span>
                   </li>
                 </ul>
               </div>
@@ -508,7 +537,7 @@ export default function MounjaslimPage() {
                         <Star key={star} className="h-6 w-6 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <span className="text-2xl font-bold text-gray-900">4.7</span>
+                    <span className="text-2xl font-bold text-gray-900">4.8</span>
                   </div>
                 </div>
                 <div className="text-right">
@@ -537,17 +566,16 @@ export default function MounjaslimPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Juliana Santos</h4>
+                    <h4 className="font-medium text-gray-900">Ana Paula</h4>
                     <span className="text-sm text-gray-500">• 2 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Comecei a usar o Mounjaslim há 2 meses e já perdi 11kg! Além do peso, 
-                    minha ansiedade por comida diminuiu muito e me sinto muito mais disposta. 
-                    Super recomendo!
+                    Comecei a usar o Rogaine há 3 semanas e a queda de cabelo PAROU! Estou muito 
+                    satisfeita com os resultados. Já vejo fios novos nascendo nas entradas.
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">32 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">15 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -561,11 +589,11 @@ export default function MounjaslimPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Carlos Eduardo</h4>
+                    <h4 className="font-medium text-gray-900">Carlos Silva</h4>
                     <span className="text-sm text-gray-500">• 4 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Posso tomar junto com outros suplementos? Faço academia e uso whey protein.
+                    Posso usar junto com outros produtos capilares? Uso minoxidil e shampoos anti-queda.
                   </p>
                   {/* Resposta */}
                   <div className="bg-white rounded-lg p-4 mt-4">
@@ -578,13 +606,11 @@ export default function MounjaslimPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                     </div>
                     <p className="text-gray-700">
-                      Olá Carlos! Sim, você pode tomar o Mounjaslim junto com whey protein 
-                      e outros suplementos esportivos. A formulação natural não interfere 
-                      com esses suplementos. Apenas mantenha um intervalo de 2 horas entre 
-                      eles para melhor absorção.
+                      Olá Carlos! Sim, você pode usar o Rogaine junto com minoxidil e outros produtos capilares. 
+                      Na verdade, a combinação potencializa os resultados, atacando a calvície de diferentes formas.
                     </p>
                   </div>
                 </div>
@@ -599,17 +625,16 @@ export default function MounjaslimPage() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-medium text-gray-900">Patricia Lima</h4>
+                    <h4 className="font-medium text-gray-900">Marina Costa</h4>
                     <span className="text-sm text-gray-500">• 1 semana atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Estou no terceiro mês de uso e os resultados são incríveis! Já perdi 15kg 
-                    e minhas medidas diminuíram muito. Minha autoestima melhorou 100% e me 
-                    sinto muito mais confiante!
+                    Estou muito feliz com os resultados! Em 2 meses minha calvície regrediu visivelmente. 
+                    O melhor é que não tenho mais aquela preocupação com a queda de cabelo que tinha antes.
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
-                    <span className="text-sm text-gray-500">45 pessoas acharam útil</span>
+                    <span className="text-sm text-gray-500">20 pessoas acharam útil</span>
                   </div>
                 </div>
               </div>
@@ -626,11 +651,11 @@ export default function MounjaslimPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Ricardo Souza</h4>
+                        <h4 className="font-medium text-gray-900">Roberto Almeida</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Tenho diabetes tipo 2, posso tomar o Mounjaslim?
+                        Quanto tempo demora para entregar? Moro no interior de São Paulo.
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -643,13 +668,11 @@ export default function MounjaslimPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Ricardo! Sim, o Mounjaslim pode ser usado por pessoas com diabetes 
-                          tipo 2, pois seus ingredientes são naturais e não interferem com a 
-                          glicemia. No entanto, recomendo consultar seu médico antes de iniciar 
-                          o uso e manter o monitoramento regular da glicose.
+                          Olá Roberto! A entrega para o interior de São Paulo leva de 5 a 7 dias úteis. 
+                          Todas as entregas são feitas com código de rastreamento para seu acompanhamento.
                         </p>
                       </div>
                     </div>
@@ -664,11 +687,34 @@ export default function MounjaslimPage() {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-medium text-gray-900">Amanda Costa</h4>
+                        <h4 className="font-medium text-gray-900">Lucia Oliveira</h4>
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Qual o melhor horário para tomar? E preciso fazer exercícios junto?
+                        Excelente produto! Já estou no terceiro mês de uso e minha calvície regrediu totalmente. 
+                        A confiança que recuperei ajuda muito na minha autoestima.
+                      </p>
+                      <div className="flex items-center gap-2">
+                        <ThumbsUp className="h-4 w-4 text-emerald-500" />
+                        <span className="text-sm text-gray-500">25 pessoas acharam útil</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Comentário 6 */}
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
+                      <User className="h-6 w-6 text-gray-600" />
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h4 className="font-medium text-gray-900">Fernanda Lima</h4>
+                        <span className="text-sm text-gray-500">• 3 semanas atrás</span>
+                      </div>
+                      <p className="text-gray-700 mb-4">
+                        Tem algum efeito colateral? Causa irritação no couro cabeludo?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -681,13 +727,12 @@ export default function MounjaslimPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Amanda! O ideal é tomar o Mounjaslim pela manhã, antes do café. 
-                          Quanto aos exercícios, não são obrigatórios para o funcionamento do 
-                          suplemento, mas a combinação com atividade física regular potencializa 
-                          os resultados e traz benefícios adicionais para sua saúde.
+                          Olá Fernanda! O Rogaine é um produto natural e seguro, sem efeitos 
+                          colaterais relatados no couro cabeludo. Como todo produto capilar, recomendamos seguir as instruções 
+                          indicadas na embalagem.
                         </p>
                       </div>
                     </div>
@@ -745,6 +790,8 @@ export default function MounjaslimPage() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </main>
   )
-} 
+}

@@ -9,7 +9,7 @@ export function Header() {
         <div className="relative w-[180px] h-8">
           <Image
             src="/images/logo.png"
-            alt="Emagrecedores"
+            alt="Melhores Capilares"
             fill
             className="object-contain"
           />

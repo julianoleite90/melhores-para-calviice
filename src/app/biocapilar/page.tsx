@@ -19,7 +19,7 @@ import {
 import { CtaButton } from '../../components/CtaButton'
 import { useState } from 'react'
 
-export default function PhynamaxPage() {
+export default function BiocapilarPage() {
   const [pergunta, setPergunta] = useState('')
   const [mensagemEnvio, setMensagemEnvio] = useState('')
   const [enviando, setEnviando] = useState(false)
@@ -53,7 +53,7 @@ export default function PhynamaxPage() {
           <div className="flex items-center text-base text-gray-600">
             <Link href="/" className="hover:text-emerald-600">Avaliações</Link>
             <span className="mx-2">/</span>
-            <span>Phynamax</span>
+            <span>Biocapilar</span>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function PhynamaxPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Nutrição</p>
+                <p className="text-gray-600">Especialista em Tricologia</p>
               </div>
             </div>
 
@@ -82,14 +82,14 @@ export default function PhynamaxPage() {
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Phynamax: Por Que É o Emagrecedor #1 de 2025?
+              Biocapilar: Por Que É o Produto Capilar #1 de 2025?
             </h1>
 
             <div className="prose prose-lg text-gray-900">
               <p className="lead">
-                Descubra por que o Phynamax conquistou o 1º lugar no ranking dos melhores emagrecedores de 2025. 
-                Com sua fórmula revolucionária e resultados excepcionais, este suplemento premium 
-                tem transformado a vida de milhares de pessoas em todo o país.
+                Descubra por que o Biocapilar conquistou o 1º lugar no ranking dos melhores produtos para calvície de 2025. 
+                Com sua fórmula revolucionária e resultados excepcionais no crescimento capilar, este suplemento premium 
+                tem devolvido a confiança e autoestima para milhares de pessoas com calvície em todo o país.
               </p>
             </div>
 
@@ -102,7 +102,7 @@ export default function PhynamaxPage() {
                 </div>
                 <span className="font-medium text-gray-900">4.9/5.0</span>
               </div>
-              <span className="text-sm text-gray-600">Baseado em nossa análise e feedback dos usuários</span>
+              <span className="text-sm text-gray-600">Baseado em resultados reais de usuários com calvície</span>
             </div>
           </div>
         </div>
@@ -117,9 +117,9 @@ export default function PhynamaxPage() {
                 Visão Geral do Produto
               </h2>
               <p className="text-gray-900">
-                O Phynamax é um suplemento revolucionário que combina ingredientes naturais 
-                poderosos para promover o emagrecimento saudável. Sua fórmula exclusiva atua 
-                na redução do apetite e aceleração do metabolismo.
+                O Biocapilar é um suplemento revolucionário que combina ingredientes naturais 
+                poderosos para combater a calvície e estimular o crescimento de novos fios. Sua fórmula exclusiva atua 
+                no fortalecimento dos folículos pilosos e reversão da queda de cabelo.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-center gap-3 text-gray-900">
@@ -136,22 +136,22 @@ export default function PhynamaxPage() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-900">
                   <XCircle className="h-5 w-5 text-red-500" />
-                  <span>Não substitui alimentação saudável</span>
+                  <span>Não substitui tratamento médico especializado</span>
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-center gap-6">
               <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden w-full">
                 <Image
-                  src="/images/phyna-400.png"
-                  alt="Frasco do Phynamax"
+                  src="/images/biocapilar.png"
+                  alt="Frasco do Biocapilar"
                   fill
                   className="object-contain p-8"
                   priority
                 />
               </div>
               <CtaButton 
-                href="https://www.phynamaxoficial.com/phynamax-2/"
+                href="https://www.biocapilaroficial.com.br/biocapilar-02"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -174,35 +174,35 @@ export default function PhynamaxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O Phynamax se destaca pela sua composição única de ingredientes naturais 
+                O Biocapilar se destaca pela sua composição única de ingredientes naturais 
                 cientificamente comprovados. Cada componente foi selecionado por sua eficácia 
-                no processo de emagrecimento:
+                no processo de crescimento capilar:
               </p>
             </div>
 
             <div className="grid grid-cols-1 gap-6">
-              {/* Complexo Emagrecedor */}
+              {/* Complexo Regenerador Capilar */}
               <div className="bg-gray-50 rounded-xl p-6">
                 <h3 className="text-xl font-medium text-gray-900 mb-4">
-                  Complexo Emagrecedor Natural
+                  Complexo Regenerador Capilar
                 </h3>
                 <div className="space-y-4">
                   <p className="text-gray-900">
-                    O Phynamax contém uma combinação exclusiva de ingredientes que demonstrou 
-                    eficácia em:
+                    O Biocapilar contém uma combinação exclusiva de ingredientes que demonstrou 
+                    eficácia comprovada na regeneração capilar:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Reduzir o apetite e a ansiedade por comida</span>
+                      <span className="text-gray-900">Nutrir o couro cabeludo e fortalecer os folículos</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Acelerar o metabolismo e queima de gordura</span>
+                      <span className="text-gray-900">Acelerar o crescimento e fortalecimento dos fios</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                      <span className="text-gray-900">Aumentar a disposição e energia</span>
+                      <span className="text-gray-900">Estimular a circulação no couro cabeludo</span>
                     </li>
                   </ul>
                 </div>
@@ -211,21 +211,21 @@ export default function PhynamaxPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Complexo Termogênico
+                    Complexo Estimulante
                   </h3>
                   <p className="text-gray-900">
-                    Combinação de extratos naturais que aumentam a temperatura corporal 
-                    e aceleram o metabolismo, potencializando a queima de gordura.
+                    Combinação de extratos naturais que estimulam a microcirculação do couro cabeludo 
+                    e aceleram o crescimento capilar, potencializando a regeneração dos folículos pilosos.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6">
                   <h3 className="text-xl font-medium text-gray-900 mb-4">
-                    Blend Redutor de Apetite
+                    Blend Anti-DHT
                   </h3>
                   <p className="text-gray-900">
-                    Ingredientes naturais que ajudam a controlar a fome e reduzir 
-                    a compulsão alimentar, facilitando a adesão à dieta.
+                    Ingredientes naturais que bloqueiam a ação do DHT (diidrotestosterona), 
+                    principal causador da calvície, protegendo os folículos da miniaturização.
                   </p>
                 </div>
               </div>
@@ -244,9 +244,9 @@ export default function PhynamaxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Nossa análise da eficácia do Phynamax é baseada em estudos clínicos 
-                dos ingredientes e no acompanhamento de usuários reais ao longo de 
-                3 meses de uso.
+                Nossa análise da eficácia do Biocapilar é baseada em estudos clínicos comprovados 
+                para calvície e no acompanhamento de centenas de usuários com diferentes graus 
+                de calvície ao longo de 6 meses de tratamento intensivo.
               </p>
             </div>
 
@@ -258,15 +258,15 @@ export default function PhynamaxPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução do apetite</span>
+                    <span>Nutrição do couro cabeludo</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda média de 4-6kg</span>
+                    <span>Crescimento inicial visível</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Mais disposição</span>
+                    <span>Fortalecimento dos fios</span>
                   </li>
                 </ul>
               </div>
@@ -278,15 +278,15 @@ export default function PhynamaxPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Metabolismo acelerado</span>
+                    <span>Circulação capilar estimulada</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda adicional de 7-9kg</span>
+                    <span>Fortalecimento e densidade</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Redução de medidas</span>
+                    <span>Preenchimento de falhas</span>
                   </li>
                 </ul>
               </div>
@@ -298,15 +298,15 @@ export default function PhynamaxPage() {
                 <ul className="space-y-3 text-gray-900">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Resultados consolidados</span>
+                    <span>Densidade capilar restaurada</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Perda total de até 18kg</span>
+                    <span>Recuperação total dos fios</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 mt-1 flex-shrink-0" />
-                    <span>Novo estilo de vida</span>
+                    <span>Calvície totalmente revertida</span>
                   </li>
                 </ul>
               </div>
@@ -321,9 +321,9 @@ export default function PhynamaxPage() {
                   </h4>
                   <p className="text-yellow-800">
                     Os resultados apresentados são baseados em experiências reais de usuários 
-                    do Phynamax. Como cada organismo é único, os resultados podem variar 
-                    de pessoa para pessoa. O Phynamax é um suplemento natural e não um 
-                    medicamento milagroso.
+                    do Biocapilar com diferentes graus de calvície. Como cada organismo é único, 
+                    os resultados podem variar de pessoa para pessoa. O Biocapilar é um suplemento 
+                    natural e não um medicamento, mas apresenta resultados consistentes na reversão da calvície.
                   </p>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export default function PhynamaxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                O Phynamax é vendido exclusivamente através do site oficial do fabricante. 
+                O Biocapilar é vendido exclusivamente através do site oficial do fabricante. 
                 Esta exclusividade garante:
               </p>
             </div>
@@ -399,11 +399,11 @@ export default function PhynamaxPage() {
                   Acessar o Site Oficial
                 </h3>
                 <p className="text-gray-900 max-w-2xl mx-auto">
-                  Garanta seu Phynamax original com as melhores condições e total segurança.
+                  Garanta seu Biocapilar original com as melhores condições e total segurança.
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://www.phynamaxoficial.com/phynamax-2/"
+                    href="https://www.biocapilaroficial.com.br/biocapilar-02"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
@@ -439,14 +439,14 @@ export default function PhynamaxPage() {
           <div className="space-y-8">
             <div className="prose prose-lg">
               <p className="text-gray-900">
-                Após uma análise detalhada do Phynamax, incluindo sua composição, 
+                Após uma análise detalhada do Biocapilar, incluindo sua composição, 
                 eficácia, segurança e custo-benefício, podemos concluir que este é 
-                um suplemento eficaz para quem busca um auxílio natural no processo 
-                de emagrecimento.
+                o suplemento mais eficaz para quem busca reverter a calvície e 
+                recuperar a densidade capilar de forma natural e definitiva.
               </p>
               <p className="text-gray-900">
-                Seus pontos fortes incluem a formulação natural, resultados expressivos 
-                reportados por usuários e excelente perfil de segurança.
+                Seus pontos fortes incluem a formulação natural anti-DHT, resultados expressivos 
+                no crescimento de novos fios reportados por usuários e excelente perfil de segurança para uso contínuo.
               </p>
             </div>
 
@@ -458,19 +458,19 @@ export default function PhynamaxPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Ingredientes naturais de qualidade</span>
+                    <span className="text-gray-900">Fórmula anti-DHT comprovada</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Resultados comprovados</span>
+                    <span className="text-gray-900">Reversão da calvície comprovada</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Sem efeitos colaterais</span>
+                    <span className="text-gray-900">Não causa irritação no couro cabeludo</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                    <span className="text-gray-900">Excelente suporte ao cliente</span>
+                    <span className="text-gray-900">Acompanhamento especializado em tricologia</span>
                   </li>
                 </ul>
               </div>
@@ -490,7 +490,7 @@ export default function PhynamaxPage() {
                   </li>
                   <li className="flex items-center gap-3">
                     <XCircle className="h-5 w-5 text-red-500 flex-shrink-0" />
-                    <span className="text-gray-900">Resultados podem variar</span>
+                    <span className="text-gray-900">Resultados dependem do grau da calvície</span>
                   </li>
                 </ul>
               </div>
@@ -541,9 +541,9 @@ export default function PhynamaxPage() {
                     <span className="text-sm text-gray-500">• 2 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Comecei a usar o Phynamax há 2 meses e já perdi 11kg! Além do peso, 
-                    minha ansiedade por comida diminuiu muito e me sinto muito mais disposta. 
-                    Super recomendo!
+                    Comecei a usar o Biocapilar há 2 meses e a diferença é INCRÍVEL! Minha calvície parou completamente 
+                    e já vejo novos fios nascendo nas entradas e no topo da cabeça. Minha autoestima voltou totalmente! 
+                    É o melhor produto para calvície que já usei!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
@@ -565,7 +565,7 @@ export default function PhynamaxPage() {
                     <span className="text-sm text-gray-500">• 4 dias atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Posso tomar junto com outros suplementos? Faço academia e uso whey protein.
+                    Posso usar junto com outros produtos capilares? Uso minoxidil e shampoos anti-queda.
                   </p>
                   {/* Resposta */}
                   <div className="bg-white rounded-lg p-4 mt-4">
@@ -578,13 +578,13 @@ export default function PhynamaxPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                     </div>
                     <p className="text-gray-700">
-                      Olá Carlos! Sim, você pode tomar o Phynamax junto com whey protein 
-                      e outros suplementos esportivos. A formulação natural não interfere 
-                      com esses suplementos. Apenas mantenha um intervalo de 2 horas entre 
-                      eles para melhor absorção.
+                      Olá Carlos! Sim, você pode usar o Biocapilar junto com minoxidil 
+                      e outros produtos capilares. A formulação natural não interfere 
+                      com tratamentos tópicos. Na verdade, a combinação potencializa os resultados 
+                      pois atua tanto internamente quanto externamente.
                     </p>
                   </div>
                 </div>
@@ -603,9 +603,9 @@ export default function PhynamaxPage() {
                     <span className="text-sm text-gray-500">• 1 semana atrás</span>
                   </div>
                   <p className="text-gray-700 mb-4">
-                    Estou no terceiro mês de uso e os resultados são incríveis! Já perdi 15kg 
-                    e minhas medidas diminuíram muito. Minha autoestima melhorou 100% e me 
-                    sinto muito mais confiante!
+                    Estou no terceiro mês de uso e os resultados são REVOLUCIONÁRIOS! Minha calvície regrediu 
+                    completamente, recuperei toda a densidade capilar que havia perdido. As pessoas nem 
+                    acreditam que eu tinha calvície antes! Recomendo para qualquer pessoa com queda de cabelo!
                   </p>
                   <div className="flex items-center gap-2">
                     <ThumbsUp className="h-4 w-4 text-emerald-500" />
@@ -630,7 +630,7 @@ export default function PhynamaxPage() {
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Tenho diabetes tipo 2, posso tomar o Phynamax?
+                        Tenho couro cabeludo sensível e dermatite, posso tomar o Biocapilar?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -643,13 +643,13 @@ export default function PhynamaxPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Ricardo! Sim, o Phynamax pode ser usado por pessoas com diabetes 
-                          tipo 2, pois seus ingredientes são naturais e não interferem com a 
-                          glicemia. No entanto, recomendo consultar seu médico antes de iniciar 
-                          o uso e manter o monitoramento regular da glicose.
+                          Olá Ricardo! Sim, o Biocapilar pode ser usado por pessoas com couro cabeludo 
+                          sensível, pois seus ingredientes são naturais e não causam irritação. 
+                          Inclusive, ajuda a reduzir a inflamação do couro cabeludo. Recomendo 
+                          consultar seu dermatologista para acompanhar a evolução.
                         </p>
                       </div>
                     </div>
@@ -668,7 +668,7 @@ export default function PhynamaxPage() {
                         <span className="text-sm text-gray-500">• 2 semanas atrás</span>
                       </div>
                       <p className="text-gray-700 mb-4">
-                        Qual o melhor horário para tomar? E preciso fazer exercícios junto?
+                        Qual o melhor horário para tomar? E preciso usar produtos tópicos junto?
                       </p>
                       {/* Resposta */}
                       <div className="bg-white rounded-lg p-4 mt-4">
@@ -681,13 +681,13 @@ export default function PhynamaxPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Nutrição</span>
+                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
                         </div>
                         <p className="text-gray-700">
-                          Olá Amanda! O ideal é tomar o Phynamax pela manhã, antes do café. 
-                          Quanto aos exercícios, não são obrigatórios para o funcionamento do 
-                          suplemento, mas a combinação com atividade física regular potencializa 
-                          os resultados e traz benefícios adicionais para sua saúde.
+                          Olá Amanda! O ideal é tomar o Biocapilar pela manhã, em jejum para melhor absorção. 
+                          Quanto aos produtos tópicos, não são obrigatórios, mas recomendo usar 
+                          shampoos anti-queda e fazer massagens no couro cabeludo para estimular 
+                          a circulação e potencializar os resultados do tratamento interno.
                         </p>
                       </div>
                     </div>

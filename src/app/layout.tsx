@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Emagrecedores ADV",
-  description: "Site otimizado com as melhores práticas de performance",
+  title: "Melhores Capilares - Remédios para Calvície",
+  description: "Os 5 melhores remédios para calvície em 2025 - análise completa e imparcial",
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#ffffff",
   manifest: "/manifest.json",
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://emagrecedores-adv.com.br",
-    siteName: "Emagrecedores ADV",
-    title: "Emagrecedores ADV",
-    description: "Site otimizado com as melhores práticas de performance",
+    url: "https://melhores-capilares.com.br",
+    siteName: "Melhores Capilares",
+    title: "Melhores Capilares - Remédios para Calvície",
+    description: "Os 5 melhores remédios para calvície em 2025 - análise completa e imparcial",
   },
 };
 

@@ -2,11 +2,11 @@ import { Metadata } from 'next'
 import { Footer } from '../../components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Definamax - Emagrecedores',
-  description: 'Definamax - Análise completa do suplemento Definamax para emagrecimento',
+      title: 'Imecap - Crescimento Capilar',
+      description: 'Imecap - Análise completa do suplemento Imecap para crescimento capilar',
 }
 
-export default function DefinamaxLayout({
+export default function NewDetoxLayout({
   children,
 }: {
   children: React.ReactNode

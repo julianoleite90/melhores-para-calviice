@@ -10,8 +10,8 @@ export function ProductCard3() {
         <div className="w-[180px] mx-auto lg:mx-0 lg:flex-shrink-0 lg:mr-8">
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
-              src="/images/ozenvitta-400.webp"
-              alt="Ozenvitta: Controle do apetite e saciedade"
+              src="/images/rogaine.png"
+              alt="Rogaine: Fortalecimento capilar e crescimento"
               fill
               className="object-contain"
             />
@@ -25,10 +25,10 @@ export function ProductCard3() {
             <div className="text-center sm:text-left">
               <div className="flex items-baseline justify-center sm:justify-start gap-2">
                 <h2 className="text-xl font-bold text-gray-900">3º Lugar:</h2>
-                <h3 className="text-xl font-bold text-gray-900">Ozenvitta</h3>
+                <h3 className="text-xl font-bold text-gray-900">Rogaine</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Controle do apetite e saciedade
+                Fortalecimento capilar e crescimento
               </p>
             </div>
 
@@ -49,10 +49,10 @@ export function ProductCard3() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Ozenvitta</span> se destaca por proporcionar saciedade prolongada e redução do apetite, com 85% dos usuários relatando menos compulsão alimentar.
+                O <span className="text-gray-900 font-medium">Rogaine</span> se destaca por combater eficazmente a calvície e estimular crescimento capilar, com 85% dos usuários relatando reversão da queda de cabelo.
               </p>
               <p className="text-gray-900 font-medium">
-                85% dos usuários notam redução do apetite em 7 dias, com perda média de 4-6kg em 30 dias de uso.
+                85% dos usuários notam bloqueio da queda capilar em 7 dias, com crescimento de novos fios visível em 30 dias de uso.
               </p>
             </div>
 
@@ -64,7 +64,7 @@ export function ProductCard3() {
                   <h4 className="font-medium text-gray-900">Composição</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Glucomannan, Psyllium, Cromo, Vitaminas B
+                  Minoxidil, Saw Palmetto, Biotina, Vitaminas Capilares
                 </p>
               </div>
 
@@ -74,7 +74,7 @@ export function ProductCard3() {
                   <h4 className="font-medium text-gray-900">Indicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Ideal para compulsão alimentar
+                  Ideal para calvície androgenética
                 </p>
               </div>
 
@@ -84,7 +84,7 @@ export function ProductCard3() {
                   <h4 className="font-medium text-gray-900">Contraindicações</h4>
                 </div>
                 <p className="text-sm text-gray-700">
-                  Gestantes e lactantes
+                  Menores de 18 anos
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ export function ProductCard3() {
               </div>
               <div className="space-y-1 text-sm text-gray-700">
                 <p>
-                  Tecnologia avançada de fibras que expandem no estômago, proporcionando até 8 horas de saciedade.
+                  Tecnologia avançada anti-DHT que bloqueia a calvície e estimula crescimento por até 8 horas contínuas.
                 </p>
               </div>
             </div>
@@ -105,14 +105,14 @@ export function ProductCard3() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://mon.net.br/3i6gsj"
+                href="/#ranking"
                 variant="primary"
                 className="flex-1"
               >
                 Acessar Site Oficial
               </CtaButton>
               <CtaButton 
-                href="/ozenvitta"
+                href="/#ranking"
                 variant="secondary"
                 className="flex-1"
               >
