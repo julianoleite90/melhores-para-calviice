@@ -11,7 +11,7 @@ export function ProductCard() {
           <div className="relative aspect-square bg-gray-50 rounded-xl p-3">
             <Image
               src="/images/biocapilar.png"
-              alt="Biocapilar: Líder absoluto em crescimento capilar natural"
+              alt="Biocapilar: Fórmula mais usada e recomendada por especialistas"
               fill
               className="object-contain"
             />
@@ -28,7 +28,7 @@ export function ProductCard() {
                 <h3 className="text-xl font-bold text-gray-900">Biocapilar</h3>
               </div>
               <p className="text-base font-medium text-gray-700">
-                Líder absoluto em crescimento capilar natural
+                Fórmula mais usada e recomendada por especialistas
               </p>
             </div>
 
@@ -49,13 +49,13 @@ export function ProductCard() {
           <div className="space-y-3">
             <div className="space-y-2">
               <p className="text-gray-700">
-                O <span className="text-gray-900 font-medium">Biocapilar</span> revoluciona o mercado de tratamento capilar com sua fórmula avançada e resultados excepcionais comprovados por milhares de usuários.
+                O <span className="text-gray-900 font-medium">Biocapilar</span> revoluciona o mercado de tratamento capilar com sua fórmula completa e eficaz no tratamento contra a calvície masculina e feminina. Seus resultados excepcionais são comprovados por milhares de usuários que se dizem satisfeitos e recomendam a fórmula.
               </p>
               <p className="text-gray-700">
-                Sua composição premium combina <span className="text-gray-900 font-medium">biotina concentrada</span>, <span className="text-gray-900 font-medium">saw palmetto</span> e <span className="text-gray-900 font-medium">complexo vitamínico capilar</span> para máxima eficácia no crescimento dos fios e fortalecimento capilar.
+                A composição é inovadora e seus ingredientes são totalmente eficazes. Uma combinação de bionutrientes que tratam, estimulam e aceleram o crescimento dos fios.
               </p>
               <p className="text-gray-900 font-medium">
-                Impressionantes 96% dos usuários reportam crescimento significativo de novos fios e fortalecimento capilar em apenas 4 semanas.
+                Cerca de 96% dos usuários reportam crescimento de novos fios e preenchimento de falhas e entradas.
               </p>
             </div>
 
@@ -111,7 +111,7 @@ export function ProductCard() {
             {/* Botões de Ação */}
             <div className="flex flex-col sm:flex-row gap-2 pt-3">
               <CtaButton 
-                href="https://www.biocapilaroficial.com.br/biocapilar-02"
+                href="https://www.biocapilaroficial.com.br/"
                 variant="primary"
                 className="flex-1"
               >

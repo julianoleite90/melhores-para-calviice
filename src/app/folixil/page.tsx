@@ -61,7 +61,7 @@ export default function FolixilPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Tricologia</p>
+                <p className="text-gray-600">Especialista em Saúde Capilar</p>
               </div>
             </div>
 
@@ -629,7 +629,7 @@ export default function FolixilPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                      <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                     </div>
                     <p className="text-gray-700">
                       Olá Carlos! Sim, você pode usar o Folixil junto com minoxidil e outros produtos capilares sem problemas. 
@@ -692,7 +692,7 @@ export default function FolixilPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Roberto! A entrega para o interior de São Paulo geralmente leva de 2 a 4 dias úteis. 
@@ -728,7 +728,7 @@ export default function FolixilPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Ana Paula! Sim, o Folixil é especialmente eficaz para alopecia androgenética avançada. 
@@ -765,7 +765,7 @@ export default function FolixilPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Pedro! O Folixil pode ser tomado a qualquer hora, mas recomendamos em jejum para melhor absorção. 
@@ -801,7 +801,7 @@ export default function FolixilPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Mariana! SIM! Mesmo com 10 anos de calvície, ainda é possível recuperar. 
@@ -837,7 +837,7 @@ export default function FolixilPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Fernando! O Folixil é composto por ingredientes naturais e não causa irritação no couro cabeludo. 

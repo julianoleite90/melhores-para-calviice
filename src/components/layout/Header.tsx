@@ -1,9 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import { Search, Apple } from 'lucide-react'
+import { Search } from 'lucide-react'
 import { Playfair_Display } from 'next/font/google'
 import { MobileMenu } from './MobileMenu'
+import { HairFollicleIcon } from '@/components/icons/HairFollicleIcon'
 
 const playfair = Playfair_Display({ 
   subsets: ['latin'],
@@ -32,7 +33,7 @@ const navigationItems = [
     items: []
   },
   {
-    label: 'Encontre um Médico',
+    label: 'Encontre um Produto',
     href: '#ranking',
     items: []
   },
@@ -82,8 +83,8 @@ export function Header() {
               className={`text-xl lg:text-2xl font-light tracking-wide text-emerald-600 flex items-center gap-2 ${playfair.className}`}
             >
               <span>SAÚDE</span>
-              <Apple className="h-5 w-5 lg:h-6 lg:w-6 text-red-500" strokeWidth={1.5} />
-              <span>EVERYDAY</span>
+              <HairFollicleIcon className="h-5 w-5 lg:h-6 lg:w-6 text-black" strokeWidth={1.5} />
+              <span>CAPILAR</span>
             </Link>
           </div>
 

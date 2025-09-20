@@ -72,7 +72,7 @@ export default function NuHairPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Tricologia</p>
+                <p className="text-gray-600">Especialista em Saúde Capilar</p>
               </div>
             </div>
 
@@ -606,7 +606,7 @@ export default function NuHairPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                      <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                     </div>
                     <p className="text-gray-700">
                       Olá Julia! O ideal é tomar o NuHair pela manhã, em jejum, com um copo de água. 
@@ -669,7 +669,7 @@ export default function NuHairPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Amanda! Não recomendamos o uso do NuHair durante a gravidez ou 
@@ -729,7 +729,7 @@ export default function NuHairPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Carla! O NuHair é um suplemento que auxilia no processo de 

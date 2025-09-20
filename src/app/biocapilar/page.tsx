@@ -72,24 +72,24 @@ export default function BiocapilarPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Tricologia</p>
+                <p className="text-gray-600">Especialista em Saúde Capilar</p>
               </div>
             </div>
 
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <CalendarDays className="h-4 w-4" />
-              <span>Última atualização: 22 de Julho de 2025</span>
+              <span>Última atualização: 22 de Agosto de 2025</span>
             </div>
 
             <h1 className="text-4xl font-serif font-bold text-gray-900">
-              Biocapilar: Por Que É o Produto Capilar #1 de 2025?
+              Biocapilar: Avaliação completa
             </h1>
 
             <div className="prose prose-lg text-gray-900">
               <p className="lead">
-                Descubra por que o Biocapilar conquistou o 1º lugar no ranking dos melhores produtos para calvície de 2025. 
-                Com sua fórmula revolucionária e resultados excepcionais no crescimento capilar, este suplemento premium 
-                tem devolvido a confiança e autoestima para milhares de pessoas com calvície em todo o país.
+                Saiba por que o Biocapilar conquistou o 1º lugar no ranking dos melhores produtos para calvície de 2025. 
+                Com sua fórmula completa e resultados excepcionais no crescimento capilar, este produto premium 
+                tem devolvido a confiança e autoestima para milhares de pessoas em todo o país.
               </p>
             </div>
 
@@ -117,7 +117,7 @@ export default function BiocapilarPage() {
                 Visão Geral do Produto
               </h2>
               <p className="text-gray-900">
-                O Biocapilar é um suplemento revolucionário que combina ingredientes naturais 
+                O Biocapilar tem sido considerado um produto altamente eficaz que combina ingredientes naturais 
                 poderosos para combater a calvície e estimular o crescimento de novos fios. Sua fórmula exclusiva atua 
                 no fortalecimento dos folículos pilosos e reversão da queda de cabelo.
               </p>
@@ -134,10 +134,6 @@ export default function BiocapilarPage() {
                   <CheckCircle2 className="h-5 w-5 text-emerald-500" />
                   <span>Produção em laboratório certificado</span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-900">
-                  <XCircle className="h-5 w-5 text-red-500" />
-                  <span>Não substitui tratamento médico especializado</span>
-                </div>
               </div>
             </div>
             <div className="flex flex-col items-center gap-6">
@@ -151,7 +147,7 @@ export default function BiocapilarPage() {
                 />
               </div>
               <CtaButton 
-                href="https://www.biocapilaroficial.com.br/biocapilar-02"
+                href="https://biocapilaroficial.com.br/"
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 w-full text-center"
               >
                 ACESSAR SITE OFICIAL
@@ -403,7 +399,7 @@ export default function BiocapilarPage() {
                 </p>
                 <div className="flex justify-center">
                   <CtaButton 
-                    href="https://www.biocapilaroficial.com.br/biocapilar-02"
+                    href="https://biocapilaroficial.com.br/"
                     className="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
                   >
                     COMPRAR NO SITE OFICIAL
@@ -578,7 +574,7 @@ export default function BiocapilarPage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                      <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                     </div>
                     <p className="text-gray-700">
                       Olá Carlos! Sim, você pode usar o Biocapilar junto com minoxidil 
@@ -643,7 +639,7 @@ export default function BiocapilarPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Ricardo! Sim, o Biocapilar pode ser usado por pessoas com couro cabeludo 
@@ -681,7 +677,7 @@ export default function BiocapilarPage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Amanda! O ideal é tomar o Biocapilar pela manhã, em jejum para melhor absorção. 

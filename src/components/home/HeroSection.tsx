@@ -24,22 +24,27 @@ export function HeroSection() {
             <div className="space-y-6">
               <div className="flex items-center gap-2 text-sm text-emerald-700">
                 <CalendarDays className="h-4 w-4" />
-                <span>Atualização: 22 de Julho de 2025</span>
+                <span>Atualização: 22 de agosto de 2025</span>
               </div>
 
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  Os 5 Melhores Remédios para crescer cabelos em 2025 – Análise Completa e Imparcial
+                  5 Remédios que tratam a Calvície e Aceleram o Crescimento de novos fios –2025
                 </h1>
 
-                <p className="text-xl text-gray-700">
-                  Aprovados pela anvisa
-                </p>
               </div>
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                <span className="text-emerald-700 font-medium">Você já tentou de tudo para combater a queda de cabelo, a calvície ou recuperar a densidade dos fios, mas nada funcionou? Não se desespere. A verdade é que 95% dos tratamentos convencionais falham — e isso não é por falta de esforço seu.</span>
+                Você já se sentiu frustrado com a queda de cabelo, as falhas e a perda de densidade dos fios?
+                </p>
+                
+                <p>
+                A verdade é que a calvície e a queda de cabelo vão muito além da estética: afetam diretamente a sua autoestima e a sua confiança. Você não está sozinho nessa luta. Cerca de 42 milhões de brasileiros enfrentam o mesmo problema, e muitos sentem a mesma frustração com tratamentos que parecem não funcionar.
+                </p>
+                
+                <p>
+                Mas e se a solução estivesse mais perto do que você imagina?
                 </p>
               </div>
 
@@ -69,7 +74,7 @@ export function HeroSection() {
                         <div>
                           <div className="text-sm text-gray-500">Por</div>
                           <div className="text-lg font-medium text-gray-900">Maria Silva</div>
-                          <div className="text-sm text-emerald-600">Especialista em tricologia</div>
+                          <div className="text-sm text-emerald-600">Especialista em saúde capilar</div>
                         </div>
                       </div>
                     </div>
@@ -79,11 +84,11 @@ export function HeroSection() {
 
               <div className="space-y-4 text-gray-700">
                 <p>
-                Nesta página, você não vai encontrar apenas uma lista comum de remédios. Aqui, apresentamos uma <span className="text-emerald-700 font-medium">análise profunda e detalhada dos 5 tratamentos capilares mais potentes e promissores de 2025</span> — selecionados com rigor científico, baseados em pesquisas clínicas recentes, opiniões de especialistas em tricologia e relatos reais de quem já obteve resultados transformadores, como o preenchimento de falhas e o crescimento de novos fios.
+                Nesta página, reunimos o que há de mais eficaz no mundo da tricologia. Apresentamos a análise detalhada e imparcial dos 5 melhores remédios para tratar a calvície e acelerar o crescimento de novos fios em 2025.
                 </p>
 
                 <p>
-                Prepare-se para descobrir qual desses produtos inovadores pode ser o seu aliado ideal para conquistar cabelos saudáveis, densos e cheios de vida de forma consistente e duradoura.
+                Cada produto foi selecionado com base em evidências científicas rigorosas e resultados reais, para que você finalmente encontre a solução que realmente funciona para ter cabelos mais fortes e densos.
                 </p>
 
                 <div className="pt-4">
@@ -104,7 +109,7 @@ export function HeroSection() {
                     }}
                     className="w-full lg:w-auto px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-0.5"
                   >
-                    Conheça os 5 Melhores Remédios para Calvície
+                    Ir para lista dos 5 melhores para calvície
                   </button>
                 </div>
               </div>
@@ -135,7 +140,7 @@ export function HeroSection() {
                     <div>
                       <div className="text-sm text-gray-500">Por</div>
                       <div className="text-lg font-medium text-gray-900">Maria Silva</div>
-                      <div className="text-sm text-emerald-600">Especialista em tricologia</div>
+                      <div className="text-sm text-emerald-600">Especialista em saúde capilar</div>
                     </div>
                   </div>
                 </div>
@@ -151,17 +156,23 @@ export function HeroSection() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="col-span-1 lg:col-span-2 space-y-4 lg:space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">
-              Por que escolher o remédio certo para calvicie pode transformar a sua vida?
+              Você já se perguntou por que a maioria dos tratamentos para calvície não funciona?
               </h2>
               <div className="prose prose-lg text-gray-700">
                 <p>
-                Tratar a calvície vai muito além da aparência: é uma questão de <span className="text-emerald-700 font-medium">autoestima, confiança e qualidade de vida</span>. Se você já tentou inúmeros tratamentos e produtos e sentiu que seu couro cabeludo simplesmente não responde, saiba que essa resistência é mais comum do que você imagina — e não é culpa sua.
+                A razão é que eles não combatem o problema na sua origem. E é por isso que escolher o remédio certo pode transformar sua vida. É uma questão de <span className="font-bold">confiança, autoestima e, acima de tudo, ciência</span>.
                 </p>
 
-                <div className="my-6"></div>
+                <div className="my-4"></div>
 
                 <p>
-                A boa notícia é que, graças aos avanços da ciência, hoje existem medicamentos modernos que atuam diretamente nos <span className="text-emerald-700 font-medium">mecanismos biológicos que controlam o crescimento capilar, a circulação sanguínea no couro cabeludo e a saúde dos folículos</span>, oferecendo um suporte real para quem enfrenta dificuldades com a queda de cabelo e calvície.
+                Nossos especialistas em saúde capilar mergulharam em um processo rigoroso de pesquisa para identificar os <span className="font-bold">5 tratamentos mais eficazes e inovadores</span> disponíveis hoje.
+                </p>
+
+                <div className="my-4"></div>
+
+                <p>
+                Nossa metodologia foi além do marketing: cada remédio foi avaliado com base em <span className="font-bold">pesquisas robustas, a forma como agem nos folículos capilares e relatos de resultados reais</span>.
                 </p>
               </div>
             </div>
@@ -208,10 +219,13 @@ export function HeroSection() {
           {/* Cabeçalho do Ranking */}
           <div className="py-12 text-center">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Ranking dos 5 Remédios para Calvície Mais Eficazes e Seguros em 2025
+              Ranking: Os 5 Remédios que Realmente Funcionam para Calvície
             </h2>
                           <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
-                Selecionamos com rigor os medicamentos que apresentam os melhores resultados comprovados em estudos clínicos recentes, combinando eficácia e segurança. Esta lista é baseada não apenas em dados científicos, mas também na satisfação real dos usuários que já experimentaram esses tratamentos inovadores.
+                Selecionamos os <span className="font-bold">5 remédios para calvície e crescimento capilar mais eficazes e seguros de 2025</span>.
+              </p>
+              <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg mt-4">
+                Nossa lista é o resultado de uma análise rigorosa, baseada em estudos clínicos comprovados e nas experiências reais de quem já transformou a saúde dos próprios fios.
               </p>
           </div>
 
@@ -345,7 +359,7 @@ export function HeroSection() {
                             <p className="text-base md:text-lg text-gray-600 mt-1">Líder absoluto com resultados excepcionais (novos fios em 30 dias)</p>
                           </div>
                           <a
-                            href="https://www.biocapilaroficial.com.br/biocapilar-02"
+                            href="https://www.biocapilaroficial.com.br/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-[#40B37C] hover:opacity-90 rounded-lg transition-colors"

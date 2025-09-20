@@ -72,7 +72,7 @@ export default function ImecapPage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Tricologia</p>
+                <p className="text-gray-600">Especialista em Saúde Capilar</p>
               </div>
             </div>
 

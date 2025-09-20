@@ -73,7 +73,7 @@ export default function RogainePage() {
               />
               <div className="text-sm">
                 <p className="font-medium text-gray-900">Maria Silva</p>
-                <p className="text-gray-600">Especialista em Tricologia</p>
+                <p className="text-gray-600">Especialista em Saúde Capilar</p>
               </div>
             </div>
 
@@ -606,7 +606,7 @@ export default function RogainePage() {
                         className="rounded-full"
                       />
                       <span className="font-medium text-gray-900">Maria Silva</span>
-                      <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                      <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                     </div>
                     <p className="text-gray-700">
                       Olá Carlos! Sim, você pode usar o Rogaine junto com minoxidil e outros produtos capilares. 
@@ -668,7 +668,7 @@ export default function RogainePage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Roberto! A entrega para o interior de São Paulo leva de 5 a 7 dias úteis. 
@@ -727,7 +727,7 @@ export default function RogainePage() {
                             className="rounded-full"
                           />
                           <span className="font-medium text-gray-900">Maria Silva</span>
-                          <span className="text-sm text-gray-500">• Especialista em Tricologia</span>
+                          <span className="text-sm text-gray-500">• Especialista em Saúde Capilar</span>
                         </div>
                         <p className="text-gray-700">
                           Olá Fernanda! O Rogaine é um produto natural e seguro, sem efeitos 
